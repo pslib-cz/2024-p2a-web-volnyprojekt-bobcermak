@@ -1,8 +1,8 @@
 # Balancgate - vaše brána k životní rovnováze
 
 **Odkazy:**
-- [Plátno ve Figmě](https://www.figma.com/design/vshKPFW5UDYmnjZJsEAWdy/Balancgate?node-id=0-1&p=f&t=IZTZe2dKaDlxyyl8-0)
-- [GitHub Pages](odkaz_na_github_pages)
+- <a href="https://www.figma.com/design/vshKPFW5UDYmnjZJsEAWdy/Balancgate?node-id=0-1&p=f&t=IZTZe2dKaDlxyyl8-0" target="_blank">Plátno ve Figmě</a>
+- <a href="odkaz_na_github_pages" target="_blank">GitHub Pages</a>
 
 ## Popis
 
