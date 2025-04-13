@@ -1,7 +1,7 @@
 # Balancgate - vaše brána k životní rovnováze
 
 **Odkazy:**
-- [Plátno ve Figmě](odkaz_na_figmu)
+- [Plátno ve Figmě](https://www.figma.com/design/vshKPFW5UDYmnjZJsEAWdy/Balancgate?node-id=0-1&t=IZTZe2dKaDlxyyl8-1)
 - [GitHub Pages](odkaz_na_github_pages)
 
 ## Popis
@@ -33,7 +33,3 @@ Cílem je vytvořit kvalitní a rozpoznatelnou značku, která se etablíruje na
 
 - **6 dalších stránek:**  
   Každá stránka bude zaměřená na konkrétní typ masáže, jako je např. Hloubková masáž, Havajská masáž - Lomi-Lomi nebo Dornova metoda + Breussova masáž.
-
-## Licence
-
-Tento projekt je licencován pod licencí [MIT](LICENSE).
