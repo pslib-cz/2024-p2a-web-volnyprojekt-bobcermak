@@ -1,4 +1,4 @@
-# Balancgate - vaše brána k životní rovnováze
+# Balancgate | vaše brána k životní rovnováze
 
 **Odkazy:**
 - [Plátno ve Figmě](https://www.figma.com/design/vshKPFW5UDYmnjZJsEAWdy/Balancgate?node-id=0-1&p=f&t=IZTZe2dKaDlxyyl8-0)
