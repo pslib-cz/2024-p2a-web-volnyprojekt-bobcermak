@@ -1,7 +1,7 @@
 # Balancgate - vaše brána k životní rovnováze
 
 **Odkazy:**
-- [Plátno ve Figmě](https://www.figma.com/design/vshKPFW5UDYmnjZJsEAWdy/Balancgate?node-id=0-1&p=f&t=IZTZe2dKaDlxyyl8-0)
+- [Plátno ve Figmě](https://www.figma.com/design/XzURy8VPKYpPw7Nvizl29h/%C4%8Cerm%C3%A1kBohuslav?node-id=182-15&t=KhkWwVRr1tCxZYzG-1)
 - [GitHub Pages](#)
 - [Word - Brand](https://pslib.sharepoint.com/:w:/s/P2AMME2024sk.1/EfunV8iC8TZHgIs_0g-U0u8Bumrv1k7fsV50db7xO-U7wQ?e=B7ZfZy)
 
