@@ -21,10 +21,11 @@ Cílem je vytvořit kvalitní a rozpoznatelnou značku, která se etablíruje na
   3. **Slider - služeb:** Přehlídka různých masážních služeb, které nabízíme, s možností rychlého prokliku na detaily jednotlivých služeb.
   4. **Reklamní část na výzvu rezervace:** Sekce, která motivuje návštěvníky k rezervaci masáže, např. speciální nabídky nebo akce.
   5. **Ceník (cards):** Přehled cen našich služeb a procedur.
-  6. **Vouchery:** Nabídka voucherů na masáže a wellness procedury, ideální jako dárek pro vaše blízké.  
-  7. **Galerie:** Fotografie a videa našich prostor, masážních procedur a spokojených zákazníků, které ukazují atmosféru a kvalitu našich služeb.  
-  8. **Slider? - recenze:** Ohlasy od našich spokojených zákazníků, kteří sdílejí své zkušenosti a doporučení.  
-  9. **Formulář pro kontakt:** Kontaktní formulář pro rezervace, dotazy a zpětnou vazbu.  
+  6. **Vouchery:** Nabídka voucherů na masáže a wellness procedury, ideální jako dárek pro vaše blízké.
+  7. **Jak fungují vouchery:** Vysvětlení, jak lze zakoupit a uplatnit dárkové vouchery. Proces probíhá ve 3 jednoduchých krocích.
+  8. **Galerie:** Fotografie a videa našich prostor, masážních procedur a spokojených zákazníků, které ukazují atmosféru a kvalitu našich služeb.  
+  9. **Slider? - recenze:** Ohlasy od našich spokojených zákazníků, kteří sdílejí své zkušenosti a doporučení.  
+  10. **Formulář pro kontakt:** Kontaktní formulář pro rezervace, dotazy a zpětnou vazbu.  
 
 - **Stránka o nás:**  
   Informace o filozofii značky, našich hodnotách a týmu.
