@@ -32,3 +32,5 @@ Cílem je vytvořit kvalitní a rozpoznatelnou značku, která se etablíruje na
 
 - **Stránka Hloubková masáž:**  
   Příklad určité stránky - Hloubková masáž. Na stejný princip (patterny) budou vypadat zbylé stránky.
+
+Autor: Bohuslav Čermák
