@@ -1,36 +1,40 @@
-# Balancgate - vaše brána k životní rovnováze
+# Balancgate - Vaše Brána k Životní Rovnováze
 
-**Odkazy:**
-- [Plátno ve Figmě](https://www.figma.com/design/XzURy8VPKYpPw7Nvizl29h/%C4%8Cerm%C3%A1kBohuslav?node-id=182-15&t=KhkWwVRr1tCxZYzG-1)
-- [GitHub Pages](https://shiny-fortnight-6vkvo4e.pages.github.io/)
-- [Word - Brand](https://pslib.sharepoint.com/:w:/s/P2AMME2024sk.1/EfunV8iC8TZHgIs_0g-U0u8Bumrv1k7fsV50db7xO-U7wQ?e=B7ZfZy)
+[Plátno ve Figmě](https://www.figma.com/design/XzURy8VPKYpPw7Nvizl29h/%C4%8Cerm%C3%A1kBohuslav?node-id=182-15&t=KhkWwVRr1tCxZYzG-1) | [GitHub Pages](https://shiny-fortnight-6vkvo4e.pages.github.io/) | [Word - Brand](https://pslib.sharepoint.com/:w:/s/P2AMME2024sk.1/EfunV8iC8TZHgIs_0g-U0u8Bumrv1k7fsV50db7xO-U7wQ?e=B7ZfZy)
 
-## Popis
+---
 
-**Téma značky:**  
-Balancgate je značka zaměřená na zlepšení životní rovnováhy prostřednictvím masáží, wellness a relaxačních technik. Nabízí zdroje a nástroje pro zlepšení fyzické i mentální pohody, s důrazem na masáže, wellness procedury a techniky pro snížení stresu a zlepšení celkového zdraví.
+## Popis ✨
 
-**Cíl značky:**  
-Cílem je vytvořit kvalitní a rozpoznatelnou značku, která se etablíruje na trhu díky kvalitnímu SEO, atraktivnímu designu a maximální spokojenosti zákazníků. Balancgate chce být viditelné a snadno dostupné pro širokou veřejnost, a to nejen díky vynikajícím produktům a službám, ale i díky efektivní reklamě a marketingovým strategiím, které pomohou značce růst.
+**Téma značky:**
+Balancgate je značka zaměřená na zlepšení vaší životní rovnováhy prostřednictvím masáží, wellness a relaxačních technik. 🌸 Nabízíme služby, které zlepšují vaši fyzickou i mentální pohodu a pomáhají vám snížit stres a zlepšit celkové zdraví. 💆‍♂️💆‍♀️
 
-## Očekávaný obsah
+**Cíl značky:**
+Naším cílem je etablovat Balancgate jako kvalitní a rozpoznatelnou značku, která se vyznačuje silným SEO, atraktivním designem a maximální spokojeností zákazníků. 🌿 Chceme být snadno dostupní pro širokou veřejnost nejen díky skvělým produktům a službám, ale i efektivním marketingovým strategiím. 📈
 
-- **Úvodní stránka:**  
-  1. **Welcome část:** Úvodní sekce na hlavní stránce, která vítá návštěvníky a představuje účel a nabídku značky.  
-  2. **Proč jsou masáže dobré:** Informace o přínosech masáží pro tělo i mysl, jak přispívají k celkové pohody a zdraví.  
-  3. **Slider - služeb:** Přehlídka různých masážních služeb, které nabízíme, s možností rychlého prokliku na detaily jednotlivých služeb.
-  4. **Reklamní část na výzvu rezervace:** Sekce, která motivuje návštěvníky k rezervaci masáže, např. speciální nabídky nebo akce.
-  5. **Ceník (cards):** Přehled cen našich služeb a procedur.
-  6. **Vouchery:** Nabídka voucherů na masáže a wellness procedury, ideální jako dárek pro vaše blízké.
-  7. **Jak fungují vouchery:** Vysvětlení, jak lze zakoupit a uplatnit dárkové vouchery. Proces probíhá ve 3 jednoduchých krocích.
-  8. **Galerie:** Fotografie a videa našich prostor, masážních procedur a spokojených zákazníků, které ukazují atmosféru a kvalitu našich služeb.  
-  9. **Slider? - recenze:** Ohlasy od našich spokojených zákazníků, kteří sdílejí své zkušenosti a doporučení.  
-  10. **Formulář pro kontakt:** Kontaktní formulář pro rezervace, dotazy a zpětnou vazbu.  
+---
 
-- **Stránka o nás:**  
-  Informace o filozofii značky, našich hodnotách a týmu.
+## Očekávaný obsah 📋
 
-- **Stránka Hloubková masáž:**  
-  Příklad určité stránky - Hloubková masáž. Na stejný princip (patterny) budou vypadat zbylé stránky.
+### Úvodní stránka:
+1. **Welcome část:** Krátký úvod, který vítá návštěvníky a představuje značku. 👋
+2. **Proč jsou masáže dobré:** Rychlý přehled přínosů masáží pro tělo i mysl. 💖
+3. **Slider - Služby:** Přehlídka našich masážních služeb s rychlým prokliky na detaily. 🖱️
+4. **Výzva k rezervaci:** Sekce motivující návštěvníky k rezervaci, např. speciální akce. 🗓️
+5. **Ceník:** Přehled cen našich služeb ve formě karet. 💸
+6. **Vouchery:** Nabídka dárkových voucherů na masáže. 🎁
+7. **Jak fungují vouchery:** 3 jednoduché kroky, jak zakoupit a uplatnit voucher. 🛒
+8. **Galerie:** Fotografie našich prostor, procedur a spokojených zákazníků. 📸
+9. **Recenze:** Ohlasy spokojených zákazníků. 🌟
+10. **Formulář pro kontakt:** Možnost rezervace, dotazů nebo zpětné vazby. 📩
 
-Autor: Bohuslav Čermák
+### Stránka "O nás":
+Představíme vám filozofii značky a tým, který se stará o vaši pohodu. 💖
+
+### Stránka "Hloubková masáž":
+Příklad stránky o konkrétní službě – hloubkové masáže. Tento princip bude použit pro všechny služby. 👐
+
+---
+
+### Autor:
+Bohuslav Čermák
