@@ -29,12 +29,11 @@ Naším cílem je etablovat Balancgate jako kvalitní a rozpoznatelnou značku, 
 10. **Formulář pro kontakt:** Možnost rezervace, dotazů nebo zpětné vazby. 📩
 
 ### Stránka "O nás":
-Představíme vám filozofii značky a tým, který se stará o vaši pohodu. 💖
+Představíme vám filozofii značky a tým, který se stará o vaši pohodu. 💫
 
 ### Stránka "Hloubková masáž":
 Příklad stránky o konkrétní službě – hloubkové masáže. Tento princip bude použit pro všechny služby. 👐
 
 ---
 
-### Autor:
-Bohuslav Čermák
+### Autor: Bohuslav Čermák
