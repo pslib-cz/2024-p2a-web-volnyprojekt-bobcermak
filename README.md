@@ -1,6 +1,6 @@
 # Balancgate | Vaše brána k životní rovnováze
 
-Dopřejte si chvilku pro sebe - v Balancgate v Jablonci nad Nisou na vás čekají profesionální masáže, voňavé oleje a klid, který si zasloužíte. Objevte místo, kde tělo i mysl najdou rovnováhu.
+Dopřejte si chvilku pro sebe - v Balancgate v Jablonci nad Nisou na vás čekají profesionální masáže a klid, který si zasloužíte. Objevte místo, kde tělo i mysl najdou rovnováhu.
 
 ---
 
