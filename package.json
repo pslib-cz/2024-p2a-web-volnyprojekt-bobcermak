@@ -13,6 +13,7 @@
     "vite": "^6.2.0"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.3.0",
+    "vituum": "^1.2.0"
   }
 }
