@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
-    "light-dark": "^0.2.0"
+    "swiper": "^11.2.6"
   }
 }
