@@ -1,6 +1,6 @@
-# Balancgate | Vaše brána k životní rovnováze
+# BalancGate | Vaše brána k životní rovnováze
 
-Dopřejte si chvilku pro sebe - v Balancgate v Jablonci nad Nisou na vás čekají profesionální masáže a klid, který si zasloužíte. Objevte místo, kde tělo i mysl najdou rovnováhu.
+Dopřejte si chvilku pro sebe - v BalancGate v Jablonci nad Nisou na vás čekají profesionální masáže a klid, který si zasloužíte. Objevte místo, kde tělo i mysl najdou rovnováhu.
 
 ---
 
@@ -11,10 +11,10 @@ Dopřejte si chvilku pro sebe - v Balancgate v Jablonci nad Nisou na vás čekaj
 ## Popis ✨
 
 **Téma značky:**
-Balancgate je značka zaměřená na zlepšení vaší životní rovnováhy prostřednictvím masáží, wellness a relaxačních technik. 🌸 Nabízíme služby, které zlepšují vaši fyzickou i mentální pohodu a pomáhají vám snížit stres a zlepšit celkové zdraví. 💆‍♂️💆‍♀️
+BalancGate je značka zaměřená na zlepšení vaší životní rovnováhy prostřednictvím masáží, wellness a relaxačních technik. 🌸 Nabízíme služby, které zlepšují vaši fyzickou i mentální pohodu a pomáhají vám snížit stres a zlepšit celkové zdraví. 💆‍♂️💆‍♀️
 
 **Cíl značky:**
-Naším cílem je etablovat Balancgate jako kvalitní a rozpoznatelnou značku, která se vyznačuje silným SEO, atraktivním designem a maximální spokojeností zákazníků. 🌿 Chceme být snadno dostupní pro širokou veřejnost nejen díky skvělým produktům a službám, ale i efektivním marketingovým strategiím. 📈
+Naším cílem je etablovat BalancGate jako kvalitní a rozpoznatelnou značku, která se vyznačuje silným SEO, atraktivním designem a maximální spokojeností zákazníků. 🌿 Chceme být snadno dostupní pro širokou veřejnost nejen díky skvělým produktům a službám, ale i efektivním marketingovým strategiím. 📈
 
 ---
 
