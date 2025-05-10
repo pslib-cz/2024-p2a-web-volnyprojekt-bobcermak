@@ -1,2 +1,74 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap);
+
+/*title*/
+
+h2, .title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: var(--title, 32px);
+    line-height: 1.25;
+    letter-spacing: -0.01rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/*underline*/
+
+h2 {
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid;
+    width: 50px;
+}
+
+/*paragraph*/
+
+p, .paragraph {
+    font-weight: 500;
+    font-size: var(--paragraph, 16px);
+    line-height: 1.5;
+    letter-spacing: -0.005rem;
+    margin: 0;
+}
+
+/*paragraph--bold*/
+
+b, .paragraph--bold {
+    font-weight: 700;
+}
+
+/*paragraph--bold--upper-case*/
+
+strong, .paragraph--bold--upper-case {
+    text-transform: uppercase;
+}
+
+/*paragraph--extra-bold--upper-case*/
+
+.paragraph--extra-bold--upper-case {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/*heading*/
+
+h2 + p, h3, .heading {
+    font-weight: 700;
+    font-size: var(--heading, 40px);
+    line-height: 1.25;
+    letter-spacing: -0.0125rem;
+    margin: 0;
+}
+
+/*heading--upper-case*/
+
+.heading--upper-case {
+    text-transform: uppercase;
+}
