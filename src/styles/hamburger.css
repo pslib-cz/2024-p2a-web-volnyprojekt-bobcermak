@@ -81,9 +81,9 @@ button {
     margin: 0;
     top: 0;
     bottom: 0;
-    left: -110%;
+    left: -100%;
     width: 100%;
-    transition: left calc(3 * var(--move-time)) ease-in-out;
+    transition: left calc(3.5 * var(--move-time)) ease-in-out;
     padding: 0;
     background-color: var(--bg-white);
 }

@@ -8,6 +8,12 @@
     gap: var(--gap-body, 6.25rem);
 }
 
+/*no - scroll*/
+
+.noscroll {
+    overflow: hidden;
+}
+
 /*page__header*/
 
 .page__header {
@@ -52,7 +58,7 @@
         justify-content: end;
         row-gap: 0;
         column-gap: 0;
-        gap: 2rem;
+        gap: 4rem;
     }
 }
 
@@ -70,6 +76,7 @@
 
 @media screen and (min-width: 1281px) {
     .page__header-menu-href {
+        padding: 0;
         font-size: 1rem;
     }
 }
@@ -81,7 +88,8 @@
 .page__header-menu-item-button {
     list-style: none;
     grid-column: span 2;
-    margin: 3rem 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 1281px) {
@@ -112,7 +120,7 @@
 
 /*hover*/
 
-@media screen and (min-width: 961px) {
+@media screen and (min-width: 1281px) {
     .page__header-menu-item {
         position: relative;
     }
