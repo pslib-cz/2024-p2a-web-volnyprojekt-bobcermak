@@ -89,27 +89,31 @@ li:has(.button) {
 
 /*Icons - normal*/
 
-.icon::after {
+.icon::before {
     font-weight: 700;
-    margin-left: 5rem;
+    margin-right: .5rem;
     font-size: 1rem;
 }
 
 /*Icons - single*/
 
-.icon--single::after {
+.icon--hidden {
+    display: none;
+}
+
+.icon--single::before {
     margin-left: 0;
     padding: .25rem;
     font-size: 1.5rem;
 }
 
-.icon--instagram::after {
+.icon--instagram::before {
     font-family: "Font Awesome 5 Brands";
     content: "\f16d";
-    
+    margin: 0;
 }
 
-.icon--facebook::after {
+.icon--facebook::before {
     font-family: "Font Awesome 5 Brands";
     content: "\f09a";
     margin: 0;

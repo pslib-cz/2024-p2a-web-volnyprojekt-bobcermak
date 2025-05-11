@@ -96,4 +96,8 @@ button {
     .hamburger-row {
         display: none;
     }
+
+    .hamburger-nav {
+        position: static;
+    }
 }

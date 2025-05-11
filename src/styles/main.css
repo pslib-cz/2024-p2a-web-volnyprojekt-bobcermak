@@ -72,10 +72,10 @@
         :root {
             /*max-width*/
 
-            --max-width: 90vw;
-            --max-width: 90svw;
-            --semi-max-width: 72vw;
-            --semi-max-width: 72svw;
+            --max-width-full: 90vw;
+            --max-width-full: 90vw;
+            --max-width-semi: 80vw;
+            --max-width-semi: 80svw;
 
             /*border-radius*/
 

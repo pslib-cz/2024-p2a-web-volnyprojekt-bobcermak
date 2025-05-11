@@ -26,19 +26,39 @@
     margin: 0 1.5rem;
 }
 
+@media screen and (min-width: 1281px) {
+    .page__header-nav {
+        width: var(--max-width-semi);
+        margin: 0 auto;
+    }
+}
+
 .page__header-logo {
     z-index: 1;
 }
 
 .page__header-menu  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 2rem;
+    column-gap: 1rem;
+}
+
+@media screen and (min-width: 1281px) {
+    .page__header-menu  {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        row-gap: 0;
+        column-gap: 0;
+        gap: 2rem;
+    }
 }
 
 .page__header-menu-item {
     list-style: none;
+    grid-column: span 2;
 }
 
 .page__header-menu-href {
@@ -48,10 +68,69 @@
     font-size: 1.5rem;
 }
 
+@media screen and (min-width: 1281px) {
+    .page__header-menu-href {
+        font-size: 1rem;
+    }
+}
+
 .page__header-menu-item-first {
     margin-top: 11.5rem;
 }
 
 .page__header-menu-item-button {
+    list-style: none;
+    grid-column: span 2;
     margin: 3rem 0;
+}
+
+@media screen and (min-width: 1281px) {
+    .page__header-menu-item-button {
+        margin: 0;
+    }
+
+    .page__header-menu-item-first {
+        margin: 0;
+    }
+}
+
+.page__header-menu-item-fb {
+    grid-column: 1;
+    justify-self: end;
+}
+
+.page__header-menu-item-ig {
+    grid-column: 2;
+    justify-self: start;
+}
+
+@media screen and (min-width: 1281px) {
+    .page__header-menu-item-fb, .page__header-menu-item-ig {
+        display: none;
+    }
+}
+
+/*hover*/
+
+@media screen and (min-width: 961px) {
+    .page__header-menu-item {
+        position: relative;
+    }
+
+    .page__header-menu-item::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 100%;
+        height: 2px;
+        background-color: var(--bg-dark);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform var(--transition, .25s ease-in-out);
+    }
+
+    .page__header-menu-item:hover::after {
+        transform: scaleX(1);
+    }
 }
