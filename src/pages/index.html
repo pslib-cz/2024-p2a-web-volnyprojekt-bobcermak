@@ -14,29 +14,31 @@
 </head>
 <body class="page">
     <header class="page__header" id="header">
-        <nav>
-            <a href="#header" aria-label="Domů">
+        <nav class="page__header-nav">
+            <a class="page__header-logo" href="#header" aria-label="Domů">
                 <img class="img-responsive" src="/images/ui/logo.svg" alt="BalancGate - logo">
             </a>
             <!--hamburger-->
-            <div aria-label="Hlavní navigace">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="page__header-hamburger hamburger-row">
+                <button class="hamburger hamburger-btn hamburger-zone" aria-label="Otevřít menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
-            <menu>
-                <li><a href="#">Domů</a></li>
-                <li><a href="#">O nás</a></li>
-                <li><a href="#">Služby</a></li>
-                <li><a href="#">Ceník</a></li>
-                <li><a href="#">Kontakt</a></li>
-                <li><a class="button" href="#" aria-label="Tlačítko rezervace">Rezervovat</a></li>
+            <menu class="page__header-menu hamburger-nav hamburger-zone">
+                <li class="page__header-menu-item page__header-menu-item-first"><a class="page__header-menu-href paragraph paragraph--extra-bold--upper-case" href="#">Domů</a></li>
+                <li class="page__header-menu-item"><a class="page__header-menu-href paragraph paragraph--bold--upper-case" href="#">O nás</a></li>
+                <li class="page__header-menu-item"><a class="page__header-menu-href paragraph paragraph--bold--upper-case" href="#">Služby</a></li>
+                <li class="page__header-menu-item"><a class="page__header-menu-href paragraph paragraph--bold--upper-case" href="#">Ceník</a></li>
+                <li class="page__header-menu-item"><a class="page__header-menu-href paragraph paragraph--bold--upper-case" href="#">Kontakt</a></li>
+                <li class="page__header-menu-item page__header-menu-item-button"><a class="page__header-menu-href button" href="#" aria-label="Tlačítko rezervace">Rezervovat</a></li>
+                <li class="page__header-menu-item"><a class="page__header-menu-href paragraph paragraph--bold--upper-case icon icon--single icon--facebook" href="https://www.facebook.com/kristyna.cermakova.505" target="_blank" aria-label="Facebook"><span>Facebook</span></a></li>
+                <li class="page__header-menu-item"><a class="page__header-menu-href paragraph paragraph--bold--upper-case icon icon--single icon--instagram" href="https://www.instagram.com/kita.cermakova/" target="_blank" aria-label="Instagram"><span>Instagram</span></a></li>
             </menu>
         </nav>
-    </header>
-    <main class="page__content">
-        <section class="page__welcome" id="welcome">
-            <div class="page__welcome-wrapper">
+        <section class="page__header-welcome" id="welcome">
+            <div class="page__header-welcome-wrapper">
                 <header>
                     <h1>BalancGate - vaše brána k životní rovnováze</h1>
                     <p>Masáže a terapie, které vám pomohou znovu najít vnitřní klid. <strong>"Vaše brána k životní rovnováze"</strong> - to je víc než jen slogan, je to náš přístup k péči o vás.</p>
@@ -49,6 +51,8 @@
                 </div>
             </div>
         </section>
+    </header>
+    <main class="page__content">
         <section class="page__massage-benefits" id="massage-benefits">
             <header>
                 <h2>Výhody masážní terapie</h2>
@@ -698,8 +702,8 @@
             </div>
             <div>
                 <ul>
-                    <li><a href="https://www.facebook.com/kristyna.cermakova.505" target="_blank" aria-label="Facebook"></a></li>
-                    <li><a href="https://www.instagram.com/kita.cermakova/" target="_blank" aria-label="Instagram"></a></li>
+                    <li><a href="https://www.facebook.com/kristyna.cermakova.505" target="_blank" aria-label="Facebook"><span>Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/kita.cermakova/" target="_blank" aria-label="Instagram"><span>Instagram</span></a></li>
                 </ul>
             </div>
         </section> 

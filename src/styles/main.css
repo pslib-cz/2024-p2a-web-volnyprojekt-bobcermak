@@ -38,15 +38,17 @@
 
         /*Font-sizes*/
 
-        --title: 32px;
-        --paragraph: 16px;
-        --heading: 40px;
+        --title: 2rem;
+        --paragraph: 1rem;
+        --heading: 2.5rem;
 
         /*Settings*/
 
-        /*transition*/
+        /*transitions*/
 
         --transition: .25s ease-in-out;
+        --rotate-time: .25s;
+        --move-time: .25s;
 
         /*max-width*/
 
@@ -54,21 +56,38 @@
         --max-width-full: 100svw;
         --max-width-semi: 100vw;
         --max-width-semi: 100svw;
+
+        /*border-radius*/
+
+        --border-radius: 3.25rem;
+        --border-radius-image: 52px;
+
+        /*gap*/
+
+        --gap-body: 6.25rem;
+        --gap-section: 2.5rem;
     }
 
     @media screen and (min-width: 1281px) {
         :root {
+            /*max-width*/
+
             --max-width: 90vw;
             --max-width: 90svw;
             --semi-max-width: 72vw;
             --semi-max-width: 72svw;
+
+            /*border-radius*/
+
+            --border-radius: 5rem;
+            --border-radius-image: 80px;
         }
     }
 
     html {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
-        font-size: var(--paragraph, 16px);
+        font-size: var(--paragraph, 1rem);
         color: var(--text-dark);
         background-color: var(--bg-white);
         scroll-behavior: smooth;

@@ -1,12 +1,14 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap);
 
+/*Texts*/
+
 /*title*/
 
 h2, .title {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: var(--title, 32px);
+    font-size: var(--title, 2rem);
     line-height: 1.25;
     letter-spacing: -0.01rem;
     text-transform: uppercase;
@@ -32,7 +34,7 @@ h2::after {
 
 p, .paragraph {
     font-weight: 500;
-    font-size: var(--paragraph, 16px);
+    font-size: var(--paragraph, 1rem);
     line-height: 1.5;
     letter-spacing: -0.005rem;
     margin: 0;
@@ -47,6 +49,7 @@ b, .paragraph--bold {
 /*paragraph--bold--upper-case*/
 
 strong, .paragraph--bold--upper-case {
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -61,7 +64,7 @@ strong, .paragraph--bold--upper-case {
 
 h2 + p, h3, .heading {
     font-weight: 700;
-    font-size: var(--heading, 40px);
+    font-size: var(--heading, 2.5rem);
     line-height: 1.25;
     letter-spacing: -0.0125rem;
     margin: 0;
@@ -71,4 +74,43 @@ h2 + p, h3, .heading {
 
 .heading--upper-case {
     text-transform: uppercase;
+}
+
+/*Others - resets*/
+
+figure, ul {
+    margin: 0;
+    padding: 0;
+}
+
+li:has(.button) {
+    list-style: none;
+}
+
+/*Icons - normal*/
+
+.icon::after {
+    font-weight: 700;
+    margin-left: 5rem;
+    font-size: 1rem;
+}
+
+/*Icons - single*/
+
+.icon--single::after {
+    margin-left: 0;
+    padding: .25rem;
+    font-size: 1.5rem;
+}
+
+.icon--instagram::after {
+    font-family: "Font Awesome 5 Brands";
+    content: "\f16d";
+    
+}
+
+.icon--facebook::after {
+    font-family: "Font Awesome 5 Brands";
+    content: "\f09a";
+    margin: 0;
 }
