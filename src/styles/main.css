@@ -66,6 +66,7 @@
 
         --gap-body: 6.25rem;
         --gap-section: 2.5rem;
+        --margin-sides: 1.5rem;
     }
 
     @media screen and (min-width: 1281px) {

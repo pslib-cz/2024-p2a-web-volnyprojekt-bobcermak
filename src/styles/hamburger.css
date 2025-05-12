@@ -42,15 +42,15 @@ button {
 /*logic*/
 
 .hamburger span:nth-child(1) {
-    transition: rotate var(--rotate-time) ease-in-out, translate var(--move-time) ease-in-out var(--move-time);
+    transition: rotate var(--rotate-time, .25s) ease-in-out, translate var(--move-time, .25s) ease-in-out var(--move-time, .25s);
 }
 
 .hamburger span:nth-child(2) {
-    transition: translate var(--move-time) ease-in-out calc(var(--move-time) + var(--rotate-time)), width var(--move-time) ease-in-out;
+    transition: translate var(--move-time, .25s) ease-in-out calc(var(--move-time, .25s) + var(--rotate-time, .25s)), width var(--move-time, .25s) ease-in-out;
 }
 
 .hamburger span:nth-child(3) {
-    transition: rotate var(--rotate-time) ease-in-out, translate var(--move-time) ease-in-out var(--move-time), width var(--move-time) ease-in-out;
+    transition: rotate var(--rotate-time, .25s) ease-in-out, translate var(--move-time, .25s) ease-in-out var(--move-time, .25s), width var(--move-time, .25s) ease-in-out;
 }
 
 /*active*/
@@ -58,20 +58,20 @@ button {
 .hamburger.active span:nth-child(1) {
     translate: 0 10px;
     rotate: 45deg;
-    transition: translate var(--move-time) ease-in-out var(--move-time), rotate var(--rotate-time) ease-in-out var(--move-time);
+    transition: translate var(--move-time, .25s) ease-in-out var(--move-time, .25s), rotate var(--rotate-time, .25s) ease-in-out var(--move-time, .25s);
 }
 
 .hamburger.active span:nth-child(2) {
     translate: 100px 0;
     width: 32px;
-    transition: width var(--move-time) ease-in-out, translate var(--move-time) ease-in-out calc(1.25 * var(--move-time) + var(--rotate-time));
+    transition: width var(--move-time, .25s) ease-in-out, translate var(--move-time, .25s) ease-in-out calc(1.25 * var(--move-time, .25s) + var(--rotate-time, .25s));
 }
 
 .hamburger.active span:nth-child(3) {
     translate: 0 -10px;
     rotate: -45deg;
     width: 32px;
-    transition: width var(--move-time) ease-in-out, translate var(--move-time) ease-in-out var(--move-time), rotate var(--rotate-time) ease-in-out var(--move-time);
+    transition: width var(--move-time, .25s) ease-in-out, translate var(--move-time, .25s) ease-in-out var(--move-time, .25s), rotate var(--rotate-time, .25s) ease-in-out var(--move-time, .25s);
 }
 
 /*hamburger-menu*/
@@ -83,7 +83,7 @@ button {
     bottom: 0;
     left: -100%;
     width: 100%;
-    transition: left calc(3.5 * var(--move-time)) ease-in-out;
+    transition: left calc(3.5 * var(--move-time, .25s)) ease-in-out;
     padding: 0;
     background-color: var(--bg-white);
 }
