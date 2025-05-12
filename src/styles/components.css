@@ -24,7 +24,7 @@
   border: 2px solid var(--bg-dark);
 }
 
-.button::after {
+.button::before {
   content: "";
   position: absolute;
   background-color: var(--bg-white);
@@ -37,7 +37,7 @@
   transition: .5s all;
 }
 
-.button:hover::after {
+.button:hover::before {
   transform: skewX(-45deg) scale(1, 1);
   -webkit-transition: .5s all;
   transition: .5s all;

@@ -45,10 +45,8 @@
 
 .page__header-menu  {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    row-gap: 2rem;
-    column-gap: 1rem;
+    column-gap: .25rem;
 }
 
 @media screen and (min-width: 1281px) {
@@ -56,7 +54,6 @@
         display: flex;
         align-items: center;
         justify-content: end;
-        row-gap: 0;
         column-gap: 0;
         gap: 4rem;
     }
@@ -82,14 +79,12 @@
 }
 
 .page__header-menu-item-first {
-    margin-top: 11.5rem;
+    margin-top: 9rem;
 }
 
 .page__header-menu-item-button {
     list-style: none;
     grid-column: span 2;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 1281px) {

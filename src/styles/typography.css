@@ -101,6 +101,8 @@ li:has(.button) {
     display: none;
 }
 
+/*socials*/
+
 .icon--single::before {
     margin-right: 0;
     padding: .25rem;
