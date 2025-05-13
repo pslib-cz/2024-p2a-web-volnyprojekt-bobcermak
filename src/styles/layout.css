@@ -28,13 +28,13 @@
     justify-content: space-between;
     align-items: center;
     z-index: 1;
-    max-width: var(--max-width-semi);
+    max-width: var(--width-semi);
     margin: 0 var(--margin-sides, 1.5rem);
 }
 
 @media screen and (min-width: 1281px) {
     .page__header-nav {
-        width: var(--max-width-semi);
+        width: var(--width-semi);
         margin: 0 auto;
     }
 }
@@ -141,11 +141,11 @@
     transform: scaleX(1);
 }
 
-/*section - page__welcome*/
+/*section - page__header-welcome*/
 
 .page__header-welcome {
     padding: var(--gap-section, 2.5rem) var(--margin-sides, 1.5rem);
-    height: 43.75rem;
+    height: 80vh;
     background-size: cover;
     background-position: 47% 80%;
     background-repeat: no-repeat;
@@ -169,15 +169,16 @@
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        width: var(--max-width-full);
+        width: var(--width-full);
         padding: 0;
-        height: 41.25rem;
+        height: 72.5vh;
+        height: 72.5svh;
         background-position: 32.5% 80%;
         border-radius: var(--border-radius);
     }
 
     .page__header-welcome-wrapper {
-        width: var(--max-width-semi);
+        width: var(--width-semi);
         margin: 0 auto;
     }
 }
