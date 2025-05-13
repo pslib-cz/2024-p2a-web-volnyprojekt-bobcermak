@@ -50,13 +50,6 @@
         --rotate-time: .125s;
         --move-time: .125s;
 
-        /*max-width*/
-
-        --width-full: 100vw;
-        --width-full: 100svw;
-        --width-semi: 100vw;
-        --width-semi: 100svw;
-
         /*border-radius*/
 
         --border-radius: 3.25rem;

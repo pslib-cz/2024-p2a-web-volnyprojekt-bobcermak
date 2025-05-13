@@ -28,7 +28,6 @@
     justify-content: space-between;
     align-items: center;
     z-index: 1;
-    max-width: var(--width-semi);
     margin: 0 var(--margin-sides, 1.5rem);
 }
 
@@ -229,6 +228,23 @@
 /*main - index.html*/
 
 .page__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-body, 6.25rem);
     flex-grow: 1;
     margin: 0;
+}
+
+/*section - page__massage-benefits*/
+
+.page__massage-benefits {
+    padding: var(--gap-section, 2.5rem) var(--margin-sides, 1.5rem);
+}
+
+@media screen and (min-width: 1281px) {
+    .page__massage-benefits {
+        margin: 0 auto;
+        padding: 0;
+        width: var(--width-semi);
+    }
 }

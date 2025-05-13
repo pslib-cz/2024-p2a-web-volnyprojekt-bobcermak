@@ -1,4 +1,4 @@
-    /*Buttons*/
+/*Buttons*/
 
 /*button*/
 
@@ -49,14 +49,6 @@
     transition: .5s all;
 }
 
-.button--gray.button-icon::after {
-    color: var(--text-white);
-}
-
-.button--gray:hover.button-icon::after {
-    color: var(--text-dark);
-}
-
 /*button - in - header*/
 
 .page__header-menu-item-button .button-icon.button-icon--arrow-right::after {
@@ -92,14 +84,6 @@
     background-color: var(--bg-dark);
 }
 
-.button--white.button-icon::after {
-    color: var(--text-dark);
-}
-
-.button--white:hover.button-icon::after {
-    color: var(--text-white);
-}
-
 /*button--transparent-gray*/
 
 .button--transparent-gray {
@@ -113,14 +97,6 @@
     background-color: var(--bg-dark);
     color: var(--text-white);
     border: 2px solid transparent;
-}
-
-.button--transparent-gray.button-icon::after {
-    color: var(--text-dark);
-}
-
-.button--transparent-gray:hover.button-icon::after {
-    color: var(--text-white);
 }
 
 /*button--transparent-white*/
@@ -138,28 +114,22 @@
     border: 2px solid transparent;
 }
 
-.button--gray:hover.button-icon::after {
-    color: var(--text-dark);
-}
-
-.button--transparent-white.button-icon::after {
-    color: var(--text-white);
-}
-
-.button--transparent-white:hover.button-icon::after {
-    color: var(--text-dark);
-}
-
 /*buttons - icons*/
 
 .button-icon::after {
+    display: inline-block;
     font-weight: 900;
     margin-left: .5rem;
     font-size: 1rem;
-    transition: color var(--transition, .25s ease-in-out);
+    transition: transform var(--transition, .25s ease-in-out);
 }
 
 .button-icon--arrow-right::after {
     font-family: "Font Awesome 6 Free";
     content: "\f061";
+}
+
+
+.button--gray:hover.button-icon::after {
+    transform: translateX(.25rem);
 }

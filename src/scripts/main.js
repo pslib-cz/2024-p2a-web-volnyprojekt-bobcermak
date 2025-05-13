@@ -1,7 +1,7 @@
-import './anime.js';
 import './fontawesome.js';
-import './hamburger.js';
+import './gsap.js';
 import './swiper.js';
+import './hamburger.js';
 
 //no - scroll
 function updateScrollLock() {
