@@ -47,8 +47,8 @@
         /*transitions*/
 
         --transition: .25s ease-in-out;
-        --rotate-time: .25s;
-        --move-time: .25s;
+        --rotate-time: .125s;
+        --move-time: .125s;
 
         /*max-width*/
 
