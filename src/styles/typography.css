@@ -77,6 +77,12 @@ h2 + p, h3, .heading {
     text-transform: uppercase;
 }
 
+/*heading--margin-0*/
+
+.heading--margin-0 {
+    margin: 0;
+}
+
 /*Others - resets*/
 
 figure, ul {
@@ -90,7 +96,12 @@ li:has(.button) {
 
 /*Icons - normal*/
 
+.icon {
+    display: inline-block;
+}
+
 .icon::before {
+    display: inline-block;
     font-weight: 700;
     margin-right: .5rem;
     font-size: 1em;

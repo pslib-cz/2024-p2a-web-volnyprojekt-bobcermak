@@ -133,3 +133,5 @@
 .button--gray:hover.button-icon::after {
     transform: translateX(.25rem);
 }
+
+/*Swiper - !important*/

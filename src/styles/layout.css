@@ -28,12 +28,12 @@
     justify-content: space-between;
     align-items: center;
     z-index: 1;
+    width: var(--width-semi);
     margin: 0 var(--margin-sides, 1.5rem);
 }
 
 @media screen and (min-width: 1281px) {
     .page__header-nav {
-        width: var(--width-semi);
         margin: 0 auto;
     }
 }
@@ -146,6 +146,7 @@
 
 .page__header-welcome {
     padding: var(--gap-section, 2.5rem) var(--margin-sides, 1.5rem);
+    width: var(--width-full);
     height: 80vh;
     background-size: cover;
     background-position: 47% 80%;
@@ -163,6 +164,11 @@
     );
 }
 
+.page__header-welcome-wrapper {
+    width: var(--width-semi);
+    margin: 0 auto;
+}
+
 @media screen and (min-width: 1281px) {
     .page__header-welcome {
         margin: 0 auto;
@@ -170,17 +176,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        width: var(--width-full);
         padding: 0;
         height: 72.5vh;
         height: 72.5svh;
         background-position: 32.5% 80%;
         border-radius: var(--border-radius);
-    }
-
-    .page__header-welcome-wrapper {
-        width: var(--width-semi);
-        margin: 0 auto;
     }
 }
 
@@ -241,16 +241,126 @@
 
 .page__massage-benefits {
     padding: var(--gap-section, 2.5rem) var(--margin-sides, 1.5rem);
+    width: var(--width-semi);
 }
 
 @media screen and (min-width: 1281px) {
     .page__massage-benefits {
         margin: 0 auto;
         padding: 0;
-        width: var(--width-semi);
     }
 }
 
-/* .page__massage-benefits-container {
+.page__massage-benefits-container {
+    display: grid;
+    gap: var(--gap-section, 2.5rem);
+    margin-top: var(--gap-section, 2.5rem);
+}
 
-} */
+@media screen and (min-width: 1281px) {
+    .page__massage-benefits-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        gap: 0;
+    }
+}
+
+.page__massage-benefits-container-header {
+    grid-row: 3;
+    z-index: 1;
+}
+
+@media screen and (min-width: 1281px) {
+    .page__massage-benefits-container-header {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+    }
+}
+
+
+.page__massage-benefits-container-header-img {
+    border-radius: var(--border-radius-image);
+    min-height: 400px;
+}
+
+.page__massage-benefits-container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--cream-light);
+    padding: 2.5rem 2.5rem;
+    border-radius: var(--border-radius);
+}
+
+@media screen and (min-width: 1281px) {
+    .page__massage-benefits-container-content {
+        margin-top: -1.5rem;
+        margin-left: -3rem;
+        padding: 2.5rem 2.5rem 2.5rem 5.5rem;
+    }
+}
+
+.page__massage-benefits-container-text {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--bg-dark);
+}
+
+.page__massage-benefits-container-list {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.page__massage-benefits-container-text-hidden {
+    position: absolute;
+    left: -1000%;
+}
+
+@media screen and (min-width: 1537px) {
+    .page__massage-benefits-container-text-hidden {
+        position: static;
+        margin-top: 2rem;
+    }
+}
+
+.page__massage-benefits-container-info {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 1281px) {
+    .page__massage-benefits-container-info-text {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1701px) {
+    .page__massage-benefits-container-info-text {
+        font-size: 4rem;
+    }
+}
+
+/*section - page__services*/
+
+.page__services {
+    padding: var(--gap-section, 2.5rem) var(--margin-sides, 1.5rem);
+}
+
+@media screen and (min-width: 1281px) {
+    .page__services {
+        margin: 0 auto;
+        padding: 0;
+        width: var(--width-full);
+    }
+}
+
+.page__services-header {
+    width: var(--width-semi);
+    margin: 0 auto;
+}
+
+.page__services-container {
+    width: var(--width-full);
+    margin-top: var(--gap-section, 2.5rem);
+}
