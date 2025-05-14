@@ -85,7 +85,7 @@ button {
     bottom: 0;
     left: -100%;
     width: 100%;
-    transition: left calc(3.5 * var(--move-time, .25s)) ease-in-out;
+    transition: left calc(4 * var(--move-time, .25s)) ease-in-out;
     padding: 0;
     background-color: var(--bg-white);
 }
