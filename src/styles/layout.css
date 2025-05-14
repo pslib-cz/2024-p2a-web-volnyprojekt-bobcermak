@@ -87,8 +87,6 @@
 .page__header-menu-item-button {
     list-style: none;
     grid-column: span 2;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 1281px) {
@@ -109,6 +107,10 @@
 .page__header-menu-item-ig {
     grid-column: 2;
     justify-self: start;
+}
+
+.page__header-menu-href-fb, .page__header-menu-href-ig {
+    padding: 0;
 }
 
 @media screen and (min-width: 1281px) {
