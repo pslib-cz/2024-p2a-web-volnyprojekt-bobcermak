@@ -42,7 +42,7 @@ button {
 /*logic*/
 
 .hamburger span:nth-child(1) {
-    transition: rotate var(--rotate-time, .25s) ease-in-out, translate var(--move-time, .25s) ease-in-out var(--move-time, .25s);
+    transition: rotate var(--rotate-time, .25s) ease-in-out, translate calc(1.5 * var(--move-time, .25s)) ease-in-out var(--move-time, .25s);
 }
 
 .hamburger span:nth-child(2) {
@@ -51,7 +51,7 @@ button {
 }
 
 .hamburger span:nth-child(3) {
-    transition: rotate var(--rotate-time, .25s) ease-in-out, translate var(--move-time, .25s) ease-in-out var(--move-time, .25s), width var(--move-time, .25s) ease-in-out;
+    transition: rotate var(--rotate-time, .25s) ease-in-out, translate calc(1.5 * var(--move-time, .25s)) ease-in-out var(--move-time, .25s), width var(--move-time, .25s) ease-in-out;
 }
 
 /*active*/
@@ -80,7 +80,6 @@ button {
 .hamburger-nav {
     position: fixed;
     margin: 0;
-    margin-top: 8.45rem;
     top: 0;
     bottom: 0;
     left: -100%;
