@@ -81,7 +81,7 @@
 }
 
 .page__header-menu-item-first {
-    margin-top: 11.5rem;
+    margin-top: 5rem;
 }
 
 .page__header-menu-item-button {
@@ -250,3 +250,7 @@
         width: var(--width-semi);
     }
 }
+
+/* .page__massage-benefits-container {
+
+} */

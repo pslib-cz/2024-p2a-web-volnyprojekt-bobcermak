@@ -46,7 +46,8 @@ button {
 }
 
 .hamburger span:nth-child(2) {
-    transition: translate var(--move-time, .25s) ease-in-out calc(var(--move-time, .25s) + var(--rotate-time, .25s)), width var(--move-time, .25s) ease-in-out;
+    opacity: 1;
+    transition: opacity var(--move-time, .25s) ease-in-out, width var(--move-time, .25s) ease-in-out;
 }
 
 .hamburger span:nth-child(3) {
@@ -58,20 +59,20 @@ button {
 .hamburger.active span:nth-child(1) {
     translate: 0 10px;
     rotate: 45deg;
-    transition: translate var(--move-time, .25s) ease-in-out var(--move-time, .25s), rotate var(--rotate-time, .25s) ease-in-out var(--move-time, .25s);
+    transition: translate var(--move-time, .25s) ease-in-out var(--move-time, .25s), rotate var(--rotate-time, .25s) ease-in-out calc(2.5 * var(--move-time, .25s));
 }
 
 .hamburger.active span:nth-child(2) {
-    translate: 100px 0;
     width: 32px;
-    transition: width var(--move-time, .25s) ease-in-out, translate var(--move-time, .25s) ease-in-out calc(1.25 * var(--move-time, .25s) + var(--rotate-time, .25s));
+    opacity: 0;
+    transition: width var(--move-time, .25s) ease-in-out, opacity var(--move-time, .25s) ease-in-out var(--move-time, .25s);
 }
 
 .hamburger.active span:nth-child(3) {
     translate: 0 -10px;
     rotate: -45deg;
     width: 32px;
-    transition: width var(--move-time, .25s) ease-in-out, translate var(--move-time, .25s) ease-in-out var(--move-time, .25s), rotate var(--rotate-time, .25s) ease-in-out var(--move-time, .25s);
+    transition: width var(--move-time, .25s) ease-in-out, translate var(--move-time, .25s) ease-in-out var(--move-time, .25s), rotate var(--rotate-time, .25s) ease-in-out calc(2.5 * var(--move-time, .25s));
 }
 
 /*hamburger-menu*/
@@ -79,6 +80,7 @@ button {
 .hamburger-nav {
     position: fixed;
     margin: 0;
+    margin-top: 8.45rem;
     top: 0;
     bottom: 0;
     left: -100%;
@@ -99,5 +101,6 @@ button {
 
     .hamburger-nav {
         position: static;
+        margin: 0;
     }
 }
