@@ -135,3 +135,8 @@
 }
 
 /*Swiper - !important*/
+
+.swiper-slide {
+    display: grid !important;
+    gap: var(--gap-section, 2.5rem) !important;
+}

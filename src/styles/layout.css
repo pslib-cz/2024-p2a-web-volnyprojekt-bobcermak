@@ -240,7 +240,7 @@
 /*section - page__massage-benefits*/
 
 .page__massage-benefits {
-    padding: var(--gap-section, 2.5rem) var(--margin-sides, 1.5rem);
+    padding: 0 var(--margin-sides, 1.5rem);
     width: var(--width-semi);
 }
 
@@ -344,7 +344,7 @@
 /*section - page__services*/
 
 .page__services {
-    padding: var(--gap-section, 2.5rem) var(--margin-sides, 1.5rem);
+    padding: 0 var(--margin-sides, 1.5rem);
 }
 
 @media screen and (min-width: 1281px) {
