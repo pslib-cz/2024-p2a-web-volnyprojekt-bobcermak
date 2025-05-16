@@ -344,7 +344,7 @@
 /*section - page__services*/
 
 .page__services {
-    padding: 0 var(--margin-sides, 1.5rem);
+    /* padding: 0 var(--margin-sides, 1.5rem); */
 }
 
 @media screen and (min-width: 1281px) {
@@ -357,7 +357,7 @@
 
 .page__services-header {
     width: var(--width-semi);
-    margin: 0 auto;
+    margin: 0 var(--margin-sides, 1.5rem);
 }
 
 .page__services-container {
