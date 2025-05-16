@@ -240,14 +240,13 @@
 /*section - page__massage-benefits*/
 
 .page__massage-benefits {
-    padding: 0 var(--margin-sides, 1.5rem);
+    margin: 0 var(--margin-sides, 1.5rem);
     width: var(--width-semi);
 }
 
 @media screen and (min-width: 1281px) {
     .page__massage-benefits {
         margin: 0 auto;
-        padding: 0;
     }
 }
 
@@ -288,7 +287,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: var(--cream-light);
-    padding: 2.5rem 2.5rem;
+    padding: 2.5rem;
     border-radius: var(--border-radius);
 }
 
@@ -344,7 +343,7 @@
 /*section - page__services*/
 
 .page__services {
-    /* padding: 0 var(--margin-sides, 1.5rem); */
+    margin: 0 var(--margin-sides, 1.5rem);
 }
 
 @media screen and (min-width: 1281px) {
@@ -357,7 +356,6 @@
 
 .page__services-header {
     width: var(--width-semi);
-    margin: 0 var(--margin-sides, 1.5rem);
 }
 
 .page__services-container {
