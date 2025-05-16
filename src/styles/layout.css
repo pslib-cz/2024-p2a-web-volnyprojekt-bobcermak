@@ -68,7 +68,7 @@
 
 .page__header-menu-href {
     text-decoration: none;
-    color: var(--text-dark);
+    color: var(--text-dark, #333333);
     padding: .5rem 1rem;
     font-size: 1.5rem;
 }
@@ -132,7 +132,7 @@
     bottom: 0;
     width: 100%;
     height: 1px;
-    background-color: var(--bg-dark);
+    background-color: var(--bg-dark, #333333);
     transform: scaleX(0);
     transform-origin: left;
     transition: transform var(--transition, .25s ease-in-out);
@@ -180,12 +180,12 @@
         height: 72.5vh;
         height: 72.5svh;
         background-position: 32.5% 80%;
-        border-radius: var(--border-radius);
+        border-radius: var(--border-radius, 3.25rem);
     }
 }
 
 .page__header-welcome-title {
-    color: var(--text-white);
+    color: var(--text-white, #FFFFFF);
     font-weight: 700;
     font-size: var(--heading, 2.5rem);
     line-height: 1.25;
@@ -207,7 +207,7 @@
 }
 
 .page__header-welcome-content-text {
-    color: var(--text-white);
+    color: var(--text-white, #FFFFFF);
     max-width: 34.5rem;
 }
 
@@ -278,7 +278,7 @@
 
 
 .page__massage-benefits-container-header-img {
-    border-radius: var(--border-radius-image);
+    border-radius: var(--border-radius-image, 52px);
     min-height: 400px;
 }
 
@@ -286,9 +286,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--cream-light);
+    background-color: var(--cream-light, #FAEED1);
     padding: 2.5rem;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius, 3.25rem);
 }
 
 @media screen and (min-width: 1281px) {
@@ -301,7 +301,7 @@
 
 .page__massage-benefits-container-text {
     padding-bottom: 2rem;
-    border-bottom: 1px solid var(--bg-dark);
+    border-bottom: 1px solid var(--bg-dark, #333333);
 }
 
 .page__massage-benefits-container-list {
@@ -330,7 +330,7 @@
 
 @media screen and (min-width: 1281px) {
     .page__massage-benefits-container-info-text {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -343,22 +343,22 @@
 /*section - page__services*/
 
 .page__services {
-    margin: 0 var(--margin-sides, 1.5rem);
+    width: var(--width-full);
 }
 
 @media screen and (min-width: 1281px) {
     .page__services {
         margin: 0 auto;
-        padding: 0;
-        width: var(--width-full);
     }
 }
 
 .page__services-header {
     width: var(--width-semi);
+    margin: 0 var(--margin-sides, 1.5rem);
 }
 
-.page__services-container {
-    width: var(--width-full);
-    margin-top: var(--gap-section, 2.5rem);
+@media screen and (min-width: 1281px) {
+    .page__services-header {
+        margin: 0 auto;
+    }
 }

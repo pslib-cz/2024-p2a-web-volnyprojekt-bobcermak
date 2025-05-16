@@ -19,7 +19,7 @@ button {
 .hamburger span {
     position: absolute;
     height: 5px;
-    background: var(--bg-dark);
+    background: var(--bg-dark, #333333);
     border-radius: 16px;
     left: 0;
 }
@@ -86,7 +86,7 @@ button {
     width: 100%;
     transition: left calc(4.5 * var(--move-time, .125s)) ease-in-out;
     padding: 0;
-    background-color: var(--bg-white);
+    background-color: var(--bg-white, #FFFFFF);
 }
 
 .hamburger-nav.active {
