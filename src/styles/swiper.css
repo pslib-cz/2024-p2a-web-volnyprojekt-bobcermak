@@ -30,10 +30,6 @@
     width: var(--width-full);
 }
 
-.swiper-wrapper {
-    border-radius: var(--border-radius, 3.25rem);
-}
-
 .swiper-slide {
     display: var(--swiper-display, grid);
     grid-template-rows: minmax(500px, 1fr);
@@ -59,7 +55,7 @@
 @media screen and (min-width: 1281px) {
     .swiper-slide {
         grid-template-columns: 2fr .75fr 2fr;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(3, minmax(auto, 180px));
         margin: var(--gap-section, 2.5rem) auto;
         border-radius: var(--border-radius, 3.25rem);
         padding: 5rem;
@@ -77,6 +73,12 @@
     }
 }
 
+@media screen and (min-width: 1701px) {
+    .swiper-slide {
+        grid-template-rows: repeat(3, minmax(auto, 220px));
+    }
+}
+
 .swiper-slide__figure {
     display: none;
 }
@@ -88,6 +90,12 @@
 
     .swiper-slide__figure-img {
         border-radius: var(--border-radius-image, 52px);
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .swiper-slide__figure-img {
+        box-shadow: 0 0 100px var(--bg-dark, #333333);
     }
 }
 
@@ -108,10 +116,17 @@
         justify-items: end;
         justify-content: end;
         align-items: center;
+        box-shadow: 0 0 100px var(--bg-dark, #333333);
     }
 
     .swiper-slide__container-content-header {
         width: 75%;
+    }
+}
+
+@media screen and (min-width: 1601px) {
+    .swiper-slide__container-content {
+        justify-content: center;
     }
 }
 
@@ -156,7 +171,7 @@
 
 @container (min-width: 533px) {
     .swiper-slide__container-content-header-text {
-        width: 70%;
+        width: 80%;
     }
 }
 
@@ -186,9 +201,17 @@
     padding-top: var(--gap-section, 2.5rem);
 }
 
+@media screen and (min-width: 1281px) {
+    .swiper-pagination {
+        border-top: none;
+        padding-top: 0;
+    }
+}
+
+
 .swiper-horizontal > .swiper-pagination-bullets {
-    width: 96vw;
-    width: 96svw;
+    width: 89.5vw;
+    width: 89.5svw;
     margin: 0 auto
 }
 
@@ -204,13 +227,36 @@
     font-weight: 900;
 }
 
+@media screen and (min-width: 1281px) {
+    .swiper-button-prev::after, .swiper-button-next::after {
+        color: var(--text-white, #FFFFFF);
+    }
+}
+
 /*desktop*/
 
 @media screen and (min-width: 1281px) {
-    .swiper-slide-deep-massage {
+    .swiper-slide {
+        position: relative;
+        z-index: 0;
+    }
+
+    .swiper-slide::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        opacity: .8;
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
+        pointer-events: none;
+        border-radius: var(--border-radius, 3.25rem);
+    }
+
+    /*bg - images*/
+
+    .swiper-slide-deep-massage::before {
         background-image: url(/images/content/original/bg-deep-massage-image.jpg);
         background-image: -webkit-image-set(
             url(/images/content/bckps/bg-deep-massage-image.avif) type("image/avif"),
@@ -221,6 +267,76 @@
             url(/images/content/bckps/bg-deep-massage-image.avif) type("image/avif"),
             url(/images/content/bckps/bg-deep-massage-image.webp) type("image/webp"),
             url(/images/content/original/bg-deep-massage-image.jpg) type("image/jpeg")
+        );
+    }
+
+    .swiper-slide-hawaii-massage::before {
+        background-image: url(/images/content/original/bg-hawaii-massage-image.jpg);
+        background-image: -webkit-image-set(
+            url(/images/content/bckps/bg-hawaii-massage-image.avif) type("image/avif"),
+            url(/images/content/bckps/bg-hawaii-massage-image.webp) type("image/webp"),
+            url(/images/content/original/bg-hawaii-massage-image.jpg) type("image/jpeg")
+        );
+        background-image: image-set(
+            url(/images/content/bckps/bg-hawaii-massage-image.avif) type("image/avif"),
+            url(/images/content/bckps/bg-hawaii-massage-image.webp) type("image/webp"),
+            url(/images/content/original/bg-hawaii-massage-image.jpg) type("image/jpeg")
+        );
+    }
+
+    .swiper-slide-belly-massage::before {
+        background-image: url(/images/content/original/bg-belly-massage-image.jpg);
+        background-image: -webkit-image-set(
+            url(/images/content/bckps/bg-belly-massage-image.avif) type("image/avif"),
+            url(/images/content/bckps/bg-belly-massage-image.webp) type("image/webp"),
+            url(/images/content/original/bg-belly-massage-image.jpg) type("image/jpeg")
+        );
+        background-image: image-set(
+            url(/images/content/bckps/bg-belly-massage-image.avif) type("image/avif"),
+            url(/images/content/bckps/bg-belly-massage-image.webp) type("image/webp"),
+            url(/images/content/original/bg-belly-massage-image.jpg) type("image/jpeg")
+        );
+    }
+
+    .swiper-slide-dorn-method-breuss-massage::before {
+        background-image: url(/images/content/original/bg-dorn-method-breuss-massage-image.jpg);
+        background-image: -webkit-image-set(
+            url(/images/content/bckps/bg-dorn-method-breuss-massage-image.avif) type("image/avif"),
+            url(/images/content/bckps/bg-dorn-method-breuss-massage-image.webp) type("image/webp"),
+            url(/images/content/original/bg-dorn-method-breuss-massage-image.jpg) type("image/jpeg")
+        );
+        background-image: image-set(
+            url(/images/content/bckps/bg-dorn-method-breuss-massage-image.avif) type("image/avif"),
+            url(/images/content/bckps/bg-dorn-method-breuss-massage-image.webp) type("image/webp"),
+            url(/images/content/original/bg-dorn-method-breuss-massage-image.jpg) type("image/jpeg")
+        );
+    }
+
+    .swiper-slide-correction-massage::before {
+        background-image: url(/images/content/original/bg-correction-massage-image.jpg);
+        background-image: -webkit-image-set(
+            url(/images/content/bckps/bg-correction-massage-image.avif) type("image/avif"),
+            url(/images/content/bckps/bg-correction-massage-image.webp) type("image/webp"),
+            url(/images/content/original/bg-correction-massage-image.jpg) type("image/jpeg")
+        );
+        background-image: image-set(
+            url(/images/content/bckps/bg-correction-massage-image.avif) type("image/avif"),
+            url(/images/content/bckps/bg-correction-massage-image.webp) type("image/webp"),
+            url(/images/content/original/bg-correction-massage-image.jpg) type("image/jpeg")
+        );
+    }
+
+    .swiper-slide-kinesiotaping::before {
+        background-image: url(/images/content/original/bg-kinesiotaping-image.jpg);
+        background-image: -webkit-image-set(
+            url(/images/content/bckps/bg-kinesiotaping-image.avif) type("image/avif"),
+            url(/images/content/bckps/bg-kinesiotaping-image.webp) type("image/webp"),
+            url(/images/content/original/bg-kinesiotaping-image.jpg) type("image/jpeg")
+        );
+        background-image: image-set(
+            url(/images/content/bckps/bg-kinesiotaping-image.avif) type("image/avif"),
+            url(/images/content/bckps/bg-kinesiotaping-image.webp) type("image/webp"),
+            url(/images/content/original/bg-kinesiotaping-image.jpg) type("image/jpeg")
         );
     }
 }
