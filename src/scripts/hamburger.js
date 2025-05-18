@@ -9,3 +9,24 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+
+//no - scroll
+function updateScrollLock() {
+    const nav = document.querySelector('.hamburger-nav');
+    document.body.classList.toggle('noscroll', nav?.classList.contains('active'));
+}
+const nav = document.querySelector('.hamburger-nav');
+if (nav) {
+    new MutationObserver(updateScrollLock).observe(nav, {
+        attributes: true,
+        attributeFilter: ['class']
+    });
+    updateScrollLock();
+    nav.addEventListener('click', e => {
+        const link = e.target.closest('a[href^="#"]');
+        if (link) {
+            nav.classList.remove('active');
+            document.body.classList.remove('noscroll');
+        }
+    });
+}

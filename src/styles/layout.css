@@ -121,25 +121,27 @@
 
 /*hover*/
 
-.page__header-menu-item {
-    position: relative;
-}
+@media screen and (min-width: 1281px) {
+    .page__header-menu-item {
+        position: relative;
+    }
 
-.page__header-menu-item::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 1px;
-    background-color: var(--bg-dark, #333333);
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform var(--transition, .25s ease-in-out);
-}
+    .page__header-menu-item::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        background-color: var(--bg-dark, #333333);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform var(--transition, .25s ease-in-out);
+    }
 
-.page__header-menu-item:hover::after {
-    transform: scaleX(1);
+    .page__header-menu-item:hover::after {
+        transform: scaleX(1);
+    }
 }
 
 /*section - page__header-welcome*/
@@ -311,6 +313,11 @@
     gap: 1rem;
 }
 
+.page__massage-benefits-container-list-item {
+    display: flex;
+    align-items: center;
+}
+
 .page__massage-benefits-container-text-hidden {
     position: absolute;
     left: -1000%;
@@ -361,4 +368,73 @@
     .page__services-header {
         margin: 0 auto;
     }
+}
+
+/*section - page__cta*/
+
+.page__cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-size: cover;
+    background-position: 60% center;
+    background-repeat: no-repeat;
+    background-image: url(/images/content/original/cta-bg-image.jpg);
+    background-image: -webkit-image-set(
+        url(/images/content/bckps/cta-bg-image.avif) type("image/avif"),
+        url(/images/content/bckps/cta-bg-image.webp) type("image/webp"),
+        url(/images/content/original/cta-bg-image.jpg) type("image/jpeg")
+    );
+    background-image: image-set(
+        url(/images/content/bckps/cta-bg-image.avif) type("image/avif"),
+        url(/images/content/bckps/cta-bg-image.webp) type("image/webp"),
+        url(/images/content/original/cta-bg-image.jpg) type("image/jpeg")
+    );
+}
+
+@media screen and (min-width: 1281px) {
+    .page__cta {
+        background-position: right center;
+        height: 90vh;
+    }
+}
+
+.page__cta-wrapper {
+    width: var(--width-semi);
+    margin: 0 var(--margin-sides, 1.5rem);
+}
+
+@media screen and (min-width: 1281px) {
+    .page__cta-wrapper {
+        margin: 0 auto;
+    }
+}
+
+.page__cta-content {
+    text-align: center;
+    color: var(--text-white, #FFFFFF);
+}
+
+.page__cta-content-heading {
+    position: static;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: var(--heading, 2.5rem);
+    line-height: 1.25;
+    letter-spacing: -0.0125rem;
+    margin: 0;
+}
+
+.page__cta-content-button {
+    margin-top: 1rem;
+}
+
+.page__cta-about-info {
+    color: var(--text-white, #FFFFFF);
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--bg-white, #FFFFFF);
 }
