@@ -282,6 +282,7 @@
 .page__massage-benefits-container-header-img {
     border-radius: var(--border-radius-image, 52px);
     min-height: 400px;
+    max-height: 450px;
 }
 
 .page__massage-benefits-container-content {
@@ -377,7 +378,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 90vh;
     background-size: cover;
     background-position: 60% center;
     background-repeat: no-repeat;
@@ -397,7 +398,6 @@
 @media screen and (min-width: 1281px) {
     .page__cta {
         background-position: right center;
-        height: 90vh;
     }
 }
 
@@ -427,6 +427,10 @@
     margin: 0;
 }
 
+.page__cta-content-heading::after {
+    content: none;
+}
+
 .page__cta-content-button {
     margin-top: 1rem;
 }
@@ -437,4 +441,63 @@
     margin-top: 1rem;
     padding-top: 1rem;
     border-top: 1px solid var(--bg-white, #FFFFFF);
+}
+
+/*section - price-list*/
+
+.page__price-list {
+    width: var(--width-semi);
+    margin: 0 var(--margin-sides, 1.5rem);
+}
+
+@media screen and (min-width: 1281px) {
+    .page__price-list {
+        margin: 0 auto;
+    }
+}
+
+.page__price-list-header {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+@media screen and (min-width: 1281px) {
+    .page__price-list-header-intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .page__price-list-header-content {
+        text-align: center;
+    }
+}
+
+.page__price-list-cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--gap-section);
+    gap: var(--gap-section, 2.5rem);
+}
+
+.page__price-list-cards-first, .page__price-list-cards-second {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-section, 2.5rem);
+    container-type: inline-size;
+}
+
+.page__price-list-cards-second {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+  transition: max-height var(--transition, .25s ease-in-out), opacity var(--transition, .25s ease-in-out);
+}
+
+.page__price-list-cards-second.active {
+  max-height: 4000px;
+  opacity: 1;
 }

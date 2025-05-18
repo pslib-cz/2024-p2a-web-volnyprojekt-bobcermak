@@ -17,11 +17,11 @@ h2, .title {
 
 /*underline*/
 
-h2 {
+h2, .title {
     position: relative;
 }
 
-h2::after {
+h2::after, .title::after {
     content: "";
     position: absolute;
     bottom: 0;
