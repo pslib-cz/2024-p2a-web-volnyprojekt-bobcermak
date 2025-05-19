@@ -191,6 +191,14 @@
     content: "\f078";
 }
 
+/*hover*/
+
+.button:hover.button-icon--chevron-down::after {
+    transform: rotate(180deg);
+}
+
+/*on - click*/
+
 .button-on-click.active.button-icon--chevron-down::after {
     transform: rotate(180deg);
 }
@@ -204,6 +212,7 @@
     --border-radius-image: 80px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 2rem;
     padding: 2rem;
     border-radius: var(--border-radius, 5rem);
@@ -237,7 +246,6 @@
 }
 
 .price-list-card__content-price {
-    text-decoration: underline;
     font-size: 1.5rem;
     margin-top: .5rem;
 }
