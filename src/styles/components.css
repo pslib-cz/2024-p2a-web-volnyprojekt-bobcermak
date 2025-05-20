@@ -9,6 +9,7 @@
     border-radius: 1rem;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
 }
 
 /*button--gray*/
@@ -262,4 +263,44 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+}
+
+/*cards - page__vouchers-cards*/
+
+.voucher-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--cream-light, #FAEED1);
+    padding-bottom: var(--gap-section, 2.5rem);
+    border-radius: var(--border-radius, 3.25rem);
+    overflow: hidden;
+}
+
+.voucher-card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 var(--gap-section, 2.5rem);
+}
+
+.voucher-card__content-title-price {
+    display: block;
+    margin-top: .5rem;
+}
+
+.voucher-card__content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.voucher-card__footer {
+    display: flex;
+    justify-content: stretch;
+    margin: 0 var(--gap-section, 2.5rem);
+}
+
+.voucher-card__button {
+    flex-grow: 1;
 }

@@ -3,7 +3,6 @@
 @import url(swiper/css/pagination);
 
 :root {
-    --swiper-slide-width: 300px;
     --swiper-gap: var(--gap-section, 2.5rem);
     --swiper-display: grid;
     --swiper-theme-color: var(--bg-dark, #333333);

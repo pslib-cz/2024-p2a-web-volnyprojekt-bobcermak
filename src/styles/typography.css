@@ -71,6 +71,23 @@ h2 + p, h3, .heading {
     margin-top: 1rem;
 }
 
+/*long-title*/
+
+.long-title {
+    position: relative;
+}
+
+.long-title-hidden {
+    position: absolute;
+    left: -1000%;
+}
+
+@media screen and (min-width: 641px) {
+    .long-title-hidden {
+        position: static;
+    }
+}
+
 /*heading--upper-case*/
 
 .heading--upper-case {
