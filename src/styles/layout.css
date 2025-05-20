@@ -627,8 +627,14 @@
 @media screen and (min-width: 1281px) {
     .page__vouchers-wrapper {
         margin: 0 auto;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
+    }
+}
+
+@media screen and (min-width: 1501px) {
+    .page__vouchers-wrapper {
+        flex-direction: row;
     }
 }
 
@@ -666,11 +672,20 @@
 
 @media screen and (min-width: 1281px) {
     .page__vouchers-cards {
-        justify-content: end;
+        justify-content: center;
     }
 
     .voucher-card {
         flex-basis: 40%;
+    }
+}
+
+@media screen and (min-width: 1501px) {
+    .page__vouchers-cards {
+        justify-content: end;
+    }
+
+    .voucher-card {
         flex-grow: 0;
     }
 }
