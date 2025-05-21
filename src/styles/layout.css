@@ -609,7 +609,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background: linear-gradient(to top, rgba(217, 217, 217, 0) 10%, #333333 100%);
+        background: linear-gradient(to top, rgba(217, 217, 217, 0) 10%, var(--bg-dark, #333333) 100%);
         border-top-left-radius: var(--border-radius, 3.25rem);
         border-top-right-radius: var(--border-radius, 3.25rem);
         pointer-events: none;

@@ -13,7 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
 //no - scroll
 function updateScrollLock() {
     const nav = document.querySelector('.hamburger-nav');
-    document.body.classList.toggle('noscroll', nav?.classList.contains('active'));
+    const isActive = nav?.classList.contains('active');
+    document.body.classList.toggle('noscroll', isActive);
+    document.documentElement.classList.toggle('noscroll', isActive);
 }
 const nav = document.querySelector('.hamburger-nav');
 if (nav) {
@@ -27,6 +29,7 @@ if (nav) {
         if (link) {
             nav.classList.remove('active');
             document.body.classList.remove('noscroll');
+            document.documentElement.classList.remove('noscroll');
         }
     });
 }
