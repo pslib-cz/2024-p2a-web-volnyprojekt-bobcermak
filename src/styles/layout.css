@@ -12,6 +12,7 @@
 
 .noscroll {
     overflow: hidden;
+    touch-action: none;
 }
 
 /*page__header*/
@@ -483,7 +484,13 @@
     display: flex;
     flex-direction: column;
     margin-top: var(--gap-section);
-    gap: var(--gap-section, 2.5rem);
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 1281px) {
+    .page__price-list-cards {
+        gap: var(--gap-section, 2.5rem);
+    }
 }
 
 .page__price-list-cards-first, .page__price-list-cards-second {
@@ -494,28 +501,21 @@
 }
 
 .page__price-list-cards-second {
-    max-height: 0;
-    opacity: 0;
-    pointer-events: none;
-    transition: max-height var(--transition, .25s ease-in-out), opacity .5s ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-section, 2.5rem);
+    margin-bottom: var(--gap-section, 2.5rem);
 }
 
 @media screen and (min-width: 1281px) {
     .page__price-list-cards-second {
-        max-height: none;
-        opacity: 1;
-        margin-bottom: var(--gap-section, 2.5rem);
-        padding-top: var(--gap-section, 2.5rem);
         border-top: 1px solid var(--bg-dark, #333333);
-        pointer-events: auto;
+        padding-top: var(--gap-section, 2.5rem);
     }
 }
 
-.page__price-list-cards-second.active {
-    max-height: 4000px;
-    opacity: 1;
-    margin-bottom: var(--gap-section, 2.5rem);
-    pointer-events: auto;
+.page__price-list-cards-button {
+    margin-top: var(--gap-section, 2.5rem);
 }
 
 @media screen and (min-width: 1281px) {
@@ -541,7 +541,7 @@
 @media screen and (min-width: 1281px) {
     .page__price-list-explanation {
         margin: 0 auto;
-        max-width: 840px;
+        max-width: 52.5rem;
         text-align: center;
     }
 }

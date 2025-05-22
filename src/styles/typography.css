@@ -77,7 +77,7 @@ h2 + p, h3, .heading {
     position: relative;
 }
 
-.long-title-hidden {
+.long-title--hidden {
     position: absolute;
     left: -1000%;
 }
