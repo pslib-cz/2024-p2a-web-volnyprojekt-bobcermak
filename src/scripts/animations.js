@@ -55,3 +55,29 @@ function toggleExpand(buttonSelector, contentSelector) {
 screen.add("(max-width: 1281px)", () => {
   toggleExpand(".button-on-click.button-on-click--gray.button-icon.button-icon--chevron-down", ".page__price-list-cards-second");
 });
+
+//page__how-to-vouchers - main - animation
+const section = document.querySelector('#how-to-vouchers');
+const animationThreshold = .5;
+if (section) {
+  const elementsToAnimate = [
+    section,
+    document.querySelector(".wave-animation-bg-mobile"),
+    document.querySelector(".wave-animation-bg-desktop"),
+    document.querySelector(".voucher-step-write"),
+    document.querySelector(".voucher-step-confirm"),
+    document.querySelector(".voucher-step-pickup"),
+  ].filter(Boolean);
+  const observer = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.intersectionRatio >= animationThreshold) {
+          elementsToAnimate.forEach(el => el.classList.add('animation'));
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: [animationThreshold] }
+  );
+  observer.observe(section);
+}

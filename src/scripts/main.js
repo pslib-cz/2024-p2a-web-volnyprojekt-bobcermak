@@ -1,5 +1,5 @@
 import './fontawesome.js';
-import './gsap.js';
+import './animations.js';
 import './swiper.js';
 import './hamburger.js';
 

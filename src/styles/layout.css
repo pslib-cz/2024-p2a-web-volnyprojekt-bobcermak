@@ -334,7 +334,7 @@
 @media screen and (min-width: 1537px) {
     .page__massage-benefits-container-text-hidden {
         position: static;
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
 }
 
@@ -702,4 +702,162 @@
         text-align: center;
         max-width: 50rem;
     }
+}
+
+/*section - page__how-to-vouchers*/
+
+.page__how-to-vouchers {
+    width: var(--width-semi);
+}
+
+.page__how-to-vouchers-header {
+    margin: 0 var(--margin-sides, 1.5rem);
+}
+
+@media screen and (min-width: 1281px) {
+    .page__how-to-vouchers {
+        margin: 0 auto;
+    }
+
+    .page__how-to-vouchers-header {
+        margin: 0 auto;
+    }
+}
+
+.page__how-to-vouchers-header-intro-title .long-title--hidden {
+    position: absolute;
+}
+
+@media screen and (min-width: 961px) {
+    .page__how-to-vouchers-header-intro-title .long-title--hidden {
+        position: static;
+    }
+}
+
+.page__how-to-vouchers-heading::first-letter {
+    text-transform: uppercase;
+}
+
+.page__how-to-vouchers-header-content {
+    margin-top: .8rem;
+}
+
+.page__how-to-vouchers-header-content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 46.25rem;
+}
+
+.page__how-to-vouchers-header-content-button {
+    margin-top: 2rem;
+}
+
+.page__how-to-vouchers-steps {
+    position: relative;
+    display: grid;
+    gap: 4.5rem;
+    max-width: 340px;
+    margin: 0 .5rem;
+    margin-top: var(--gap-section, 2.5rem);
+}
+
+@media screen and (min-width: 361px) {
+    .page__how-to-vouchers-steps {
+        margin: 0 auto;
+        margin-top: var(--gap-section, 2.5rem);
+    }
+
+    .page__how-to-vouchers-header-intro, .page__how-to-vouchers-header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .page__how-to-vouchers-header-intro, .page__how-to-vouchers-header-content {
+        display: block;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 961px) {
+    .page__how-to-vouchers-steps {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 0rem;
+        max-width: var(--width-semi);
+        margin: 7.5rem 2rem;
+        justify-items: center;
+    }
+
+    .voucher-step-write {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .voucher-step-confirm {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .voucher-step-pickup {
+        grid-column: 3;
+        grid-row: 2;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .page__how-to-vouchers-steps {
+        margin: 5rem auto;
+    }
+}
+
+.page__how-to-vouchers-steps-mobile-bg {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: -1;
+    max-height: 100%;
+    opacity: 0;
+}
+
+.page__how-to-vouchers-steps-desktop-bg {
+    display: none;
+}
+
+@media screen and (min-width: 961px) {
+    .page__how-to-vouchers-steps-mobile-bg {
+        display: none;
+    }
+
+    .page__how-to-vouchers-steps-desktop-bg {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        max-height: 100%;
+        opacity: 0;
+    }
+}
+
+/*section - page__contact*/
+
+.page__contact {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-section, 2.5rem);
+    width: var(--width-semi);
+    margin: 0 var(--margin-sides, 1.5rem);
+}
+
+.page__contact-header-content {
+    margin-top: .5rem;
 }

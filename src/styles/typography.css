@@ -83,7 +83,7 @@ h2 + p, h3, .heading {
 }
 
 @media screen and (min-width: 641px) {
-    .long-title-hidden {
+    .long-title--hidden {
         position: static;
     }
 }
