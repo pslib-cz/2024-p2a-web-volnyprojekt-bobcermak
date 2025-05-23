@@ -9,15 +9,15 @@
     <link rel="icon" type="image/png" href="/2024-p2a-web-volnyprojekt-bobcermak/images/ui/favicon.svg">
     <link rel="apple-touch-icon" href="/2024-p2a-web-volnyprojekt-bobcermak/images/ui/favicon.svg">
     <title>BalancGate | Vaše brána k životní rovnováze</title>
-  <script type="module" crossorigin src="/2024-p2a-web-volnyprojekt-bobcermak/assets/index-oW_GxyS2.js"></script>
+  <script type="module" crossorigin src="/2024-p2a-web-volnyprojekt-bobcermak/assets/index-v_SQAbnY.js"></script>
   <link rel="modulepreload" crossorigin href="/2024-p2a-web-volnyprojekt-bobcermak/assets/fontawesome-BKywwBSM.js">
-  <link rel="modulepreload" crossorigin href="/2024-p2a-web-volnyprojekt-bobcermak/assets/gsap-_FuiHFMZ.js">
+  <link rel="modulepreload" crossorigin href="/2024-p2a-web-volnyprojekt-bobcermak/assets/animations-BVP1ABEM.js">
   <link rel="modulepreload" crossorigin href="/2024-p2a-web-volnyprojekt-bobcermak/assets/swiper-C-FhSufG.js">
   <link rel="modulepreload" crossorigin href="/2024-p2a-web-volnyprojekt-bobcermak/assets/hamburger-DSQgVGGU.js">
-  <link rel="modulepreload" crossorigin href="/2024-p2a-web-volnyprojekt-bobcermak/assets/main-ChXKwd9M.js">
+  <link rel="modulepreload" crossorigin href="/2024-p2a-web-volnyprojekt-bobcermak/assets/main-BcKFW7Rz.js">
   <link rel="stylesheet" crossorigin href="/2024-p2a-web-volnyprojekt-bobcermak/assets/fontawesome-JDmwfZ0M.css">
   <link rel="stylesheet" crossorigin href="/2024-p2a-web-volnyprojekt-bobcermak/assets/swiper-Dj_hj7aq.css">
-  <link rel="stylesheet" crossorigin href="/2024-p2a-web-volnyprojekt-bobcermak/assets/main-BHecQotm.css">
+  <link rel="stylesheet" crossorigin href="/2024-p2a-web-volnyprojekt-bobcermak/assets/main-Q891zWdn.css">
 </head>
 <body class="page">
     <header class="page__header" id="header">
@@ -349,9 +349,7 @@
                     </article>
                 </div>
                 <div class="page__price-list-cards-button">
-                    <div class="button-on-click button-on-click--gray button-icon button-icon--chevron-down">
-                        <button aria-label="Tlačítko všech služeb">Všechny služby</button>
-                    </div>
+                    <button class="button-on-click button-on-click--gray button-icon button-icon--chevron-down" aria-label="Tlačítko všech služeb">Všechny služby</button>
                 </div>
                 <div class="page__price-list-cards-second">
                     <!--Article: Dornova | Breussova masáž-->
@@ -461,7 +459,7 @@
                         </div>
                         <div class="page__vouchers-header-content">
                             <p>Hledáte smysluplný dárek, který potěší tělo i duši? Naše dárkové poukazy jsou ideální volbou. Můžete je využít na libovolnou masáž z nabídky a věnovat tak svým blízkým chvíli opravdového odpočinku a péče.</p>
-                            <a class="page__vouchers-header-content-button button button--white button-icon button-icon--chevron-down" href="#" aria-label="Tlačítko chci znát více">Chci znát více</a>
+                            <a class="page__vouchers-header-content-button button button--white" href="#" aria-label="Tlačítko chci znát více">Chci znát více</a>
                         </div>
                     </header>
                     <div class="page__vouchers-cards">
@@ -558,33 +556,67 @@
         <section class="page__how-to-vouchers" id="how-to-vouchers">
             <header class="page__how-to-vouchers-header">
                 <div class="page__how-to-vouchers-header-intro">
-                    <h2 class="long-title">Uplatnění<span class="long-title--hidden"> dárkového poukazu krok za krokem</span></h2>
-                    <p>Přemýšlíte o dárkovém poukazu? Je to snadné - stačí vám jen 3 kroky.</p>
+                    <h2 class="page__how-to-vouchers-header-intro-title long-title">Uplatnění<span class="long-title--hidden"> dárkového poukazu krok za krokem</span></h2>
+                    <p class="page__how-to-vouchers-heading long-title"><span class="long-title--hidden">Přemýšlíte o dárkovém poukazu? Je to snadné - </span>stačí vám jen 3 kroky.</p>
                 </div>
                 <div class="page__how-to-vouchers-header-content">
                     <div class="page__how-to-vouchers-header-content-text">
                         <p>Dárkový poukaz je skvělý dárek! Stačí napsat přes <b>kontaktní formulář</b> a já vám připravím poukaz na míru, ať už <b>osobně</b> nebo <b>e-mailem</b>.</p>
                         <p><b>Voucher</b> vám klidně pošleme <b>elektronicky</b>. A pokud se hned nevyčerpá celý, zbytek <b>využijete příště - o nic nepřijdete</b>. Každý <b>cent</b> se počítá. Protože <b>péče</b> má mít <b>svůj čas</b> - a <b>vy taky</b>.</p>
                     </div>
-                    <a class="button" href="#" aria-label="Tlačítko objednat">Objednat</a>
+                    <a class="page__how-to-vouchers-header-content-button button button--gray button-icon button-icon--arrow-right" href="#" aria-label="Tlačítko objednat">Objednat</a>
                 </div>
             </header>
             <div class="page__how-to-vouchers-steps">
                 <div class="voucher-step voucher-step-write">
-                    <p>Napište</p>
-                    <p>Pošlete zprávu <a href="#">„Chci voucher!“</a> s částkou a datem vyzvednutí.</p>
+                    <p class="heading voucher-step-title">Napište</p>
+                    <p class="voucher-step-text paragraph--bold">Pošlete zprávu <a class="voucher-step-href" href="#">„Chci voucher!“</a> s částkou a datem vyzvednutí.</p>
                 </div>
-                <div class="voucher-step voucher-step-write-confirm">
-                    <p>Potvrďte</p>
-                    <p>Po obdržení zprávy vám pošleme e-mail s potvrzením objednávky.</p>
+                <div class="voucher-step voucher-step-confirm">
+                    <p class="heading voucher-step-title">Potvrďte</p>
+                    <p class="voucher-step-text paragraph--bold">Po obdržení zprávy vám pošleme e-mail s potvrzením objednávky.</p>
                 </div>
-                <div class="voucher-step voucher-step-write-pickup">
-                    <p>Vyzvedněte</p>
-                    <p>Přijďte si voucher vyzvednout na pobočku v domluvený termín.</p>
+                <div class="voucher-step voucher-step-pickup">
+                    <p class="heading voucher-step-title voucher-step-title--gap-0">Vyzvedněte</p>
+                    <p class="voucher-step-text paragraph--bold">Přijďte si voucher vyzvednout na pobočku v domluvený termín.</p>
                 </div>
+                <svg class="page__how-to-vouchers-steps-mobile-bg svg-responsive wave-animation-bg-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 341 600" fill="none">
+                <g filter="url(#filter0_d_649_1407)">
+                <path d="M68.5 9.5C59 57.5 24.9856 170.605 44.5 212C91.7429 312.213 210.524 162.498 277.5 245.5C341.954 325.377 329.661 431.59 268.489 515C199.095 609.62 20.502 404.5 20.502 575.5" stroke="#DED0B6" stroke-width="8"/>
+                </g>
+                <defs>
+                <filter id="filter0_d_649_1407" x="0.501953" y="0.723633" width="339.942" height="598.776" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dy="8"/>
+                <feGaussianBlur stdDeviation="8"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.2 0 0 0 0 0.2 0 0 0 0 0.2 0 0 0 0.25 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_649_1407"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_649_1407" result="shape"/>
+                </filter>
+                </defs>
+                </svg>
+                <svg class="page__how-to-vouchers-steps-desktop-bg svg-responsive wave-animation-bg-desktop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1916 306" fill="none">
+                <g filter="url(#filter0_d_393_1392)">
+                <path d="M18 192.329C194.464 275.815 321.641 293.971 514.417 263.197C727.564 229.17 711.058 35.0992 927.972 13.6623C1155.92 -8.86496 1222.08 205.24 1451.76 192.329C1608.91 183.494 1661.84 46.3588 1813.62 74.5487C1848.51 81.0302 1865.34 86.1059 1898 100.001" stroke="#DED0B6" stroke-width="8"/>
+                </g>
+                <defs>
+                <filter id="filter0_d_393_1392" x="0.289551" y="0.000976562" width="1915.28" height="305.238" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                <feOffset dy="8"/>
+                <feGaussianBlur stdDeviation="8"/>
+                <feComposite in2="hardAlpha" operator="out"/>
+                <feColorMatrix type="matrix" values="0 0 0 0 0.2 0 0 0 0 0.2 0 0 0 0 0.2 0 0 0 0.25 0"/>
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_393_1392"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_393_1392" result="shape"/>
+                </filter>
+                </defs>
+                </svg>
             </div>
         </section>
-        <section class="page__gallery" id="gallery">
+        <!-- <section class="page__gallery" id="gallery">
             <header>
                 <div>
                     <h2>Galerie</h2>
@@ -595,21 +627,13 @@
                 </div>
             </header>
             <div>
-                <figure>
-                    <!--img-->
-                </figure>
-                <figure>
-                    <!--img-->
-                </figure>
-                <figure>
-                    <!--img-->
-                </figure>
-                <figure>
-                    <!--img-->
-                </figure>
+                <figure></figure>
+                <figure></figure>
+                <figure></figure>
+                <figure></figure>
             </div>
-        </section>
-        <section class="page__reviews" id="reviews">
+        </section> -->
+        <!-- <section class="page__reviews" id="reviews">
             <header>
                 <div>
                     <h2>Recenze</h2>
@@ -625,21 +649,21 @@
                     <a class="swiper-slide">
                         <p>Jana Novotná</p>
                         <figure>
-                            <img class="img-responsive" src="/2024-p2a-web-volnyprojekt-bobcermak/images/ui/stars.svg" loading="lazy" alt="BalancGate - stars">
+                            <img class="img-responsive" src="/images/ui/stars.svg" loading="lazy" alt="BalancGate - stars">
                         </figure>
                         <p>„Překrásné a klidné místo. Od chvíle, kdy jsem vešla, jsem cítila pohodu. Masáž byla skvělá a opravdu ulevila mým ztuhlým zádům.“</p>
                     </a>
                     <a class="swiper-slide">
                         <p>Jana Novotná</p>
                         <figure>
-                            <img class="img-responsive" src="/2024-p2a-web-volnyprojekt-bobcermak/images/ui/stars.svg" loading="lazy" alt="BalancGate - stars">
+                            <img class="img-responsive" src="/images/ui/stars.svg" loading="lazy" alt="BalancGate - stars">
                         </figure>
                         <p>„Překrásné a klidné místo. Od chvíle, kdy jsem vešla, jsem cítila pohodu. Masáž byla skvělá a opravdu ulevila mým ztuhlým zádům.“</p>
                     </a>
                     <a class="swiper-slide">
                         <p>Jana Novotná</p>
                         <figure>
-                            <img class="img-responsive" src="/2024-p2a-web-volnyprojekt-bobcermak/images/ui/stars.svg" loading="lazy" alt="BalancGate - stars">
+                            <img class="img-responsive" src="/images/ui/stars.svg" loading="lazy" alt="BalancGate - stars">
                         </figure>
                         <p>„Překrásné a klidné místo. Od chvíle, kdy jsem vešla, jsem cítila pohodu. Masáž byla skvělá a opravdu ulevila mým ztuhlým zádům.“</p>
                     </a>
@@ -648,24 +672,26 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
             </div>
-        </section>
+        </section> -->
         <section class="page__contact" id="contact">
-            <header>
-                <div>
+            <header class="page__contact-header">
+                <div class="page__contact-header-intro">
                     <h2>Kontakt</h2>
                     <p>Vaše pohodlí začíná už prvním kontaktem</p>
                 </div>
-                <div>
+                <div class="page__contact-header-content">
                     <p>Máte dotaz? Napište mi přes <b>kontaktní formulář</b>. Platba je možná pouze v <b>hotovosti</b>.</p>
                 </div>
             </header>
-            <div>
-                <a href="#"><b>Dolní nám. 584/2, 466 01 Jablonec nad Nisou 1</b></a>
-                <p><b><a href="tel:+420602726090">+420 604 338 393</a> | <a href="mailto:kitacermakova@gmail.com">kitacermakova@gmail.com</a></b></p>
+            <div class="page__contact-info">
+                <address class="page__contact-info-address">
+                    <p><strong><a href="#">Dolní nám. 584/2, 466 01 Jablonec nad Nisou 1</a></strong></p>
+                    <p><strong><a href="tel:+420604338393">+420 604 338 393</a> | <a href="mailto:kitacermakova@gmail.com">kitacermakova@gmail.com</a></strong></p>
+                </address>
             </div>
-            <div>
+            <div class="page__contact-content">
                 <h3>Zeptat se nebo potěšit poukazem?</h3>
-                <form action="https://formspree.io/f/xyyrjawd" method="post">
+                <form class="page__contact-form" action="https://formspree.io/f/xyyrjawd" method="post">
                     <div>
                         <div>
                             <label for="first-name"><b>Jméno</b></label>
@@ -684,13 +710,13 @@
                         <label for="message"><b>Zpráva</b></label>
                         <textarea id="message" name="Zpráva" required></textarea>
                     </div>
-                    <button type="submit">Odeslat</button>
+                    <button class="button button--gray button-icon button-icon--arrow-right" type="submit">Odeslat</button>
                 </form>
             </div>
         </section>
     </main>
     <footer class="page__footer">
-        <section class="page__contact" id="footer-contact">
+        <section class="page__footer-contact" id="footer-contact">
             <div>
                 <a href="#header" aria-label="Domů">
                     <img class="img-responsive" src="/2024-p2a-web-volnyprojekt-bobcermak/images/ui/logo.svg" loading="lazy" alt="BalancGate - logo">
@@ -710,7 +736,7 @@
                 <a class="button" href="#" aria-label="Tlačítko rezervace">Online rezervace</a>
             </div>
             <div>
-                <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.820922239561!2d15.168386776948648!3d50.72326136768288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470ecad1d318b7df%3A0xe9bbdd4e9851cc0d!2sDoln%C3%AD%20n%C3%A1m.%20584%2F2%2C%20466%2001%20Jablonec%20nad%20Nisou%201!5e0!3m2!1scs!2scz!4v1746904716692!5m2!1scs!2scz" width="600" height="450" style="border:0;" referrerpolicy="no-referrer-when-downgrade" title="Mapa zobrazující umístění BalancGate" aria-label="Mapa BalancGate"></iframe>
+                <iframe class="iframe-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.820922239561!2d15.168386776948648!3d50.72326136768288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470ecad1d318b7df%3A0xe9bbdd4e9851cc0d!2sDoln%C3%AD%20n%C3%A1m.%20584%2F2%2C%20466%2001%20Jablonec%20nad%20Nisou%201!5e0!3m2!1scs!2scz!4v1746904716692!5m2!1scs!2scz" width="600" height="450" style="border:0;" referrerpolicy="no-referrer-when-downgrade" title="Mapa zobrazující umístění BalancGate" aria-label="Mapa BalancGate"></iframe>
             </div>
         </section>
         <section class="page__flap" id="footer-flap">
