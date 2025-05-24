@@ -677,32 +677,32 @@
             </header>
             <div class="page__contact-info">
                 <address class="page__contact-info-address">
-                    <p><strong><a href="#">Dolní nám. 584/2, 466 01 Jablonec nad Nisou 1</a></strong></p>
-                    <p><strong><a href="tel:+420604338393">+420 604 338 393</a> | <a href="mailto:kitacermakova@gmail.com">kitacermakova@gmail.com</a></strong></p>
+                    <p class="page__contact-info-address-text"><strong class="page__contact-info-address-strong"><a class="page__contact-info-address-href" href="#">Dolní nám. 584/2, 466 01 Jablonec nad Nisou&nbsp;1</a></strong></p>
+                    <p class="page__contact-info-address-text"><strong class="page__contact-info-address-strong"><a class="page__contact-info-address-href" href="tel:+420604338393">+420 604 338 393</a> | <a class="page__contact-info-address-href" href="mailto:kitacermakova@gmail.com">kitacermakova@gmail.com</a></strong></p>
                 </address>
             </div>
-            <div class="page__contact-content">
-                <h3>Zeptat se nebo potěšit poukazem?</h3>
-                <form class="page__contact-form" action="https://formspree.io/f/xyyrjawd" method="post">
-                    <div>
-                        <div>
-                            <label for="first-name"><b>Jméno</b></label>
-                            <input type="text" id="first-name" name="Jméno" required>
+            <div class="page__contact-form form">
+                <h3 class="form__title">Zeptat se nebo potěšit poukazem?</h3>
+                <form class="form__container" action="https://formspree.io/f/xyyrjawd" method="post">
+                    <div class="form__name">
+                        <div class="form__name-first form__input-container">
+                            <label class="form__input-container-label" for="first-name"><b>Jméno</b></label>
+                            <input class="form__input" type="text" id="first-name" name="Jméno" placeholder="Jana" required>
                         </div>
-                        <div>
-                            <label for="last-name"><b>Přijmení</b></label>
-                            <input type="text" id="last-name" name="Přijmení" required>
+                        <div class="form__name-last form__input-container">
+                            <label class="form__input-container-label" for="last-name"><b>Přijmení</b></label>
+                            <input class="form__input" type="text" id="last-name" name="Přijmení" placeholder="Nováková" required>
                         </div>
                     </div>
-                    <div>
-                        <label for="email"><b>Email</b></label>
-                        <input type="email" id="email" name="Email" required>
+                    <div class="form__email form__input-container">
+                        <label class="form__input-container-label" for="email"><b>Email</b></label>
+                        <input class="form__input" type="email" id="email" name="Email" placeholder="example@domain.com" required>
                     </div>
-                    <div>
-                        <label for="message"><b>Zpráva</b></label>
-                        <textarea id="message" name="Zpráva" required></textarea>
+                    <div class="form__textarea form__input-container">
+                        <label class="form__input-container-label form__input-container-label--textarea" for="message"><b>Zpráva</b></label>
+                        <textarea class="form__textarea" id="message" name="Zpráva" placeholder="Měla bych zájem o dárkový poukaz v hodnotě 1500 Kč. Jak to prosím funguje?" required></textarea>
                     </div>
-                    <button class="button button--gray button-icon button-icon--arrow-right" type="submit">Odeslat</button>
+                    <button class="form__button button button--gray button-icon button-icon--arrow-right" type="submit">Odeslat</button>
                 </form>
             </div>
         </section>

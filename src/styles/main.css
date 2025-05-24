@@ -64,8 +64,9 @@
 
     @media screen and (min-width: 1281px) {
         :root {
-            /*max-width*/
-
+            /*width*/
+            --width-small: 56vw;
+            --width-small: 56svw;
             --width-semi: 80vw;
             --width-semi: 80svw;
             --width-full: 90vw;

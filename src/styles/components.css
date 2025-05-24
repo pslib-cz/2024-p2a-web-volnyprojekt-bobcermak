@@ -326,7 +326,7 @@
     font-size: 3rem;
     color: var(--cream-accent, #DED0B6);
     background-color: var(--bg-white, #FFFFFF);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.25);
     border-radius: .5rem;
     padding: 1.25rem;
     line-height: .75;
@@ -490,4 +490,93 @@
     .voucher-step-pickup::before {
         top: -45%;
     }
+}
+
+/*Forms*/
+
+.form {
+    background-color: var(--bg-white, #FFFFFF);
+    border-radius: var(--border-radius, 3.25rem);
+    box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.25);
+    padding: 1rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 761px) {
+    .form {
+        padding: var(--gap-section, 2.5rem);
+    }
+}
+
+.form__title {
+    margin: 0;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-section, 2.5rem);
+    margin-top: var(--gap-section, 2.5rem);
+}
+
+.form__name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    gap: var(--gap-section, 2.5rem);
+}
+
+.form__input-container {
+    position: relative;
+    display: flex;
+    justify-content: stretch;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+@media screen and (min-width: 761px) {
+    .form__name-first, .form__name-last {
+        flex-basis: 35%;
+    }
+}
+
+.form__input-container-label {
+    position: absolute;
+    top: -15%;
+    left: 0;
+    margin-left: 1.25rem;
+    background-color: var(--bg-white, #FFFFFF);
+    padding: 0 .5rem;
+}
+
+.form__input-container-label--textarea {
+    top: -5.5%;
+}
+
+.form__input {
+    display: flex;
+    border-radius: 3.25rem;
+    height: 3.75rem;
+    flex-grow: 1;
+    border: 1px solid var(--bg-dark, #333333);
+}
+
+.form__textarea {
+    display: flex;
+    border-radius: 3.25rem;
+    height: 10rem;
+    flex-grow: 1;
+}
+
+input::placeholder, textarea::placeholder {
+    opacity: .6;
+    padding: 0 var(--gap-section, 2.5rem);
+}
+
+textarea::placeholder {
+    padding: 1.25rem var(--gap-section, 2.5rem);
+}
+
+.form__button {
+    align-self: center;
 }

@@ -32,7 +32,7 @@ h2::after, .title::after {
 
 /*paragraph*/
 
-p, .paragraph {
+p, input::placeholder, textarea::placeholder, .paragraph {
     font-weight: 500;
     font-size: var(--paragraph, 1rem);
     line-height: 1.5;
@@ -42,7 +42,7 @@ p, .paragraph {
 
 /*paragraph--bold*/
 
-b, .paragraph--bold {
+b, input::placeholder, textarea::placeholder, .paragraph--bold {
     font-weight: 700;
 }
 
