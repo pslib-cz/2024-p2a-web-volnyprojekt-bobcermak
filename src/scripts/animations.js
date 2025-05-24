@@ -57,11 +57,10 @@ screen.add("(max-width: 1281px)", () => {
 });
 
 //page__how-to-vouchers - main - animation
-const section = document.querySelector('#how-to-vouchers');
+const section = document.querySelector('.page__how-to-vouchers');
 const animationThreshold = .5;
 if (section) {
   const elementsToAnimate = [
-    section,
     document.querySelector(".wave-animation-bg-mobile"),
     document.querySelector(".wave-animation-bg-desktop"),
     document.querySelector(".voucher-step-write"),

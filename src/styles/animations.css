@@ -63,20 +63,19 @@
 
 .voucher-step-write.animation {
     transform: translateY(150px);
-    animation: fade-in .5s ease-in-out .9s forwards;
+    animation: fade-in .5s ease-in-out .35s forwards;
 }
 
 /*fade-in - voucher-step-write-confirm*/
 
 .voucher-step-confirm.animation {
     transform: translateY(150px);
-    animation: fade-in .5s ease-in-out 1.15s forwards;
+    animation: fade-in .5s ease-in-out .5s forwards;
 }
 
 /*fade-in - voucher-step-write-pickup*/
 
 .voucher-step-pickup.animation {
-    /* opacity: 0; */
     transform: translateY(150px);
-    animation: fade-in .5s ease-in-out 1.4s forwards;
+    animation: fade-in .5s ease-in-out .65s forwards;
 }
