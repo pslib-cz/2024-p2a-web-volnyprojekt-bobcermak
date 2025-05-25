@@ -2,6 +2,7 @@ import Swiper from 'swiper';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 //CSS
 import '/src/styles/swiper.css';
+
 //Logic
 const swiper = new Swiper('.swiper', {
     modules: [Navigation, Pagination, Autoplay],

@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-// no - scroll
+//no - scroll
 function updateScrollLock() {
     const nav = document.querySelector('.hamburger-nav');
     const isActive = nav?.classList.contains('active');
