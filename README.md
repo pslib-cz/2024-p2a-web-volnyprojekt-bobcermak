@@ -1,8 +1,8 @@
 # BalancGate | Vaše brána k životní rovnováze
 
-![BalancGate - mockup](/public/images/content/original/BalancGate%20-%20mockup.png)
-
 Dopřejte si chvilku pro sebe - v BalancGate v Jablonci nad Nisou na vás čekají profesionální masáže a klid, který si zasloužíte. Objevte místo, kde tělo i mysl najdou rovnováhu.
+
+![BalancGate - mockup](/public/images/content/original/BalancGate%20-%20mockup.png)
 
 ---
 
