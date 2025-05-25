@@ -6,6 +6,7 @@
 /*title*/
 
 h2, .title {
+    position: relative;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: var(--title, 2rem);
@@ -13,12 +14,6 @@ h2, .title {
     letter-spacing: -0.01rem;
     text-transform: uppercase;
     margin: 0;
-}
-
-/*underline*/
-
-h2, .title {
-    position: relative;
 }
 
 h2::after, .title::after {
