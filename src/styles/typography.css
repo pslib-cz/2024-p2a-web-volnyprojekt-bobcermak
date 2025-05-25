@@ -124,6 +124,21 @@ li:has(.button) {
     content: "\f058";
 }
 
+.icon--location::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f3c5";
+}
+
+.icon--envelope::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f0e0";
+}
+
+.icon--phone::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f095";
+}
+
 /*Icons - single*/
 
 .icon--hidden {

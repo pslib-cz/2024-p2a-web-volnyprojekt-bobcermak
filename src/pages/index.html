@@ -15,7 +15,7 @@
     <header class="page__header" id="header">
         <nav class="page__header-nav">
             <a class="page__header-logo" href="#header" aria-label="Domů">
-                <img class="img-responsive" src="/images/ui/logo.svg" alt="BalancGate - logo">
+                <img class="page__header-logo-img img-responsive" src="/images/ui/logo.svg" alt="BalancGate - logo">
             </a>
             <!--hamburger-->
             <div class="page__header-hamburger hamburger-row">
@@ -698,7 +698,7 @@
                         <label class="form__input-container-label" for="email"><b>Email</b></label>
                         <input class="form__input" type="email" id="email" name="Email" placeholder="ex@domain.com" required>
                     </div>
-                    <div class="form__textarea form__input-container">
+                    <div class="form__container-textarea form__input-container">
                         <label class="form__input-container-label form__input-container-label--textarea" for="message"><b>Zpráva</b></label>
                         <textarea class="form__textarea" id="message" name="Zpráva" placeholder="Měla bych zájem o dárkový poukaz v hodnotě 1500 Kč. Jak to prosím funguje?" required></textarea>
                     </div>
@@ -709,40 +709,41 @@
     </main>
     <footer class="page__footer">
         <section class="page__footer-contact" id="footer-contact">
-            <div>
-                <a href="#header" aria-label="Domů">
-                    <img class="img-responsive" src="/images/ui/logo.svg" loading="lazy" alt="BalancGate - logo">
-                </a>
-            </div>
-            <div>
-                <h2>Kontakt</h2>
-                <ul>
-                    <li><a href="#"><b>Dolní nám. 584/2, 466 01 Jablonec nad Nisou 1</b></a></li>
-                    <li><a href="mailto:kitacermakova@gmail.com"><b>kitacermakova@gmail.com</b></a></li>
-                    <li><a href="tel:+420602726090"><b>+420 604 338 393</b></a></li>
+            <a class="page__footer-logo" href="#header" aria-label="Domů">
+                <img class="page__footer-logo-img img-responsive" src="/images/ui/logo.svg" loading="lazy" alt="BalancGate - logo">
+            </a>
+            <div class="page__footer-contact-info">
+                <h2 class="page__footer-heading heading heading--margin-0">Kontakt</h2>
+                <ul class="page__footer-contact-info-list">
+                    <li class="page__footer-contact-info-list-item icon icon--location"><a class="page__footer-contact-info-list-href" href="#"><b>Dolní nám. 584/2, 466 01 Jablonec nad Nisou 1</b></a></li>
+                    <li class="page__footer-contact-info-list-item icon icon--envelope"><a class="page__footer-contact-info-list-href" href="mailto:kitacermakova@gmail.com"><b>kitacermakova@gmail.com</b></a></li>
+                    <li class="page__footer-contact-info-list-item icon icon--phone"><a class="page__footer-contact-info-list-href" href="tel:+420602726090"><b>+420 604 338 393</b></a></li>
                 </ul>
             </div>
-            <div>
-                <h2>Masáže Jablonec nad Nisou</h2>
+            <div class="page__footer-contact-address">
+                <h2 class="page__footer-heading heading heading--margin-0">Masáže Jablonec nad Nisou</h2>
                 <p class="paragraph"><b>Zastavte se u nás - rezervujte alespoň 2 hodiny předem (telefonicky nebo online). Platba v hotovosti. Máte dotaz? Napište nám - ozveme se.</b></p>
-                <a class="button" href="#" aria-label="Tlačítko rezervace">Online rezervace</a>
+                <a class="page__footer-contact-address-button button button--gray button-icon button-icon--arrow-right" href="#" aria-label="Tlačítko rezervace">Online rezervace</a>
             </div>
-            <div>
-                <iframe class="iframe-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.820922239561!2d15.168386776948648!3d50.72326136768288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470ecad1d318b7df%3A0xe9bbdd4e9851cc0d!2sDoln%C3%AD%20n%C3%A1m.%20584%2F2%2C%20466%2001%20Jablonec%20nad%20Nisou%201!5e0!3m2!1scs!2scz!4v1746904716692!5m2!1scs!2scz" width="600" height="450" style="border:0;" referrerpolicy="no-referrer-when-downgrade" title="Mapa zobrazující umístění BalancGate" aria-label="Mapa BalancGate"></iframe>
+            <div class="page__footer-contact-map">
+                <iframe class="page__footer-contact-map-iframe iframe-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.820922239561!2d15.168386776948648!3d50.72326136768288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470ecad1d318b7df%3A0xe9bbdd4e9851cc0d!2sDoln%C3%AD%20n%C3%A1m.%20584%2F2%2C%20466%2001%20Jablonec%20nad%20Nisou%201!5e0!3m2!1scs!2scz!4v1746904716692!5m2!1scs!2scz" width="600" height="450" style="border:0;" referrerpolicy="no-referrer-when-downgrade" title="Mapa zobrazující umístění BalancGate" aria-label="Mapa BalancGate"></iframe>
             </div>
         </section>
         <section class="page__flap" id="footer-flap">
-            <div>
-                <p>&copy; 2024 - <span id="year"></span> BalancGate - Všechna práva vyhrazena | Vytvořil <a href="#" target="_blank"><b>BobCermak</b></a></p>
+            <div class="page__copyright">
+                <p class="paragraph">&copy; 2024 - <span id="year"></span> BalancGate - Všechna práva vyhrazena | Vytvořil <a class="page__copyright-href" href="#" target="_blank"><b>BobCermak</b></a></p>
             </div>
-            <div>
-                <ul>
-                    <li><a href="https://www.facebook.com/kristyna.cermakova.505" target="_blank" aria-label="Facebook"><span>Facebook</span></a></li>
-                    <li><a href="https://www.instagram.com/kita.cermakova/" target="_blank" aria-label="Instagram"><span>Instagram</span></a></li>
+            <div class="page__flap-socials">
+                <ul class="page__flap-socials-list">
+                    <li class="page__flap-socials-list-item"><a class="page__flap-socials-list-href icon icon--single icon--instagram" href="https://www.facebook.com/kristyna.cermakova.505" target="_blank" aria-label="Facebook"><span class="icon--hidden">Facebook</span></a></li>
+                    <li class="page__flap-socials-list-item"><a class="page__flap-socials-list-href icon icon--single icon--facebook" href="https://www.instagram.com/kita.cermakova/" target="_blank" aria-label="Instagram"><span class="icon--hidden">Instagram</span></a></li>
                 </ul>
             </div>
         </section> 
     </footer>
+    <div class="page__up-link">
+        <a class="button button--gray button--up-link" href="#header"><span class="icon--hidden">Up</span></a>
+    </div>
     <script type="module" src="/src/scripts/main.js"></script>
 </body>
 </html>

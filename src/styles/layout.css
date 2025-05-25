@@ -1,6 +1,7 @@
 /*bg*/
 
 .page {
+    position: relative;
     min-height: 100vh;
     min-height: 100svh;
     display: flex;
@@ -41,6 +42,10 @@
 
 .page__header-logo {
     z-index: 1;
+}
+
+.page__header-logo-img {
+    width: 191px;
 }
 
 .page__header-menu  {
@@ -148,7 +153,6 @@
 /*section - page__header-welcome*/
 
 .page__header-welcome {
-    padding: var(--gap-section, 2.5rem) var(--margin-sides, 1.5rem);
     width: var(--width-full);
     height: 80vh;
     background-size: cover;
@@ -169,7 +173,7 @@
 
 .page__header-welcome-wrapper {
     width: var(--width-semi);
-    margin: 0 auto;
+    margin: var(--gap-section, 2.5rem) var(--margin-sides, 1.5rem);
 }
 
 @media screen and (min-width: 1281px) {
@@ -179,11 +183,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        padding: 0;
         height: 72.5vh;
         height: 72.5svh;
         background-position: 32.5% 80%;
         border-radius: var(--border-radius, 3.25rem);
+    }
+
+    .page__header-welcome-wrapper {
+        margin: 0 auto;
     }
 }
 
@@ -895,4 +902,165 @@
 .page__contact-info-address-strong {
     font-style: normal;
     text-transform: lowercase;
+}
+
+/*section - page__footer*/
+
+.page__footer {
+    width: var(--width-full);
+    margin: 0 var(--margin-sides, 1.5rem);
+}
+
+@media screen and (min-width: 1281px) {
+    .page__footer {
+        margin: 0 auto;
+    }
+}
+
+.page__footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-section, 2.5rem);
+    padding: var(--gap-section, 2.5rem) 0;
+    margin-bottom: var(--gap-section, 2.5rem);
+    border-top: 1px solid var(--bg-dark, #333333);
+    border-bottom: 1px solid var(--bg-dark, #333333);
+}
+
+@media screen and (min-width: 1281px) {
+    .page__footer-contact {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1501px) {
+    .page__footer-contact {
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+
+.page__footer-logo-img {
+    width: 191px;
+}
+
+.page__footer-contact-info-list {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    margin-top: 1rem;
+}
+
+.page__footer-heading {
+    position: static;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: inherit;
+}
+
+.page__footer-heading::after {
+    position: static;
+}
+
+.page__footer-contact-info-list-item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    list-style: none;
+}
+
+.page__footer-contact-info-list-item::before {
+    margin-right: 0;
+}
+
+.page__footer-contact-info-list-href {
+    text-decoration: none;
+    color: var(--text-dark, #333333);
+}
+
+.page__footer-contact-address {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 1281px) {
+    .page__footer-contact-address {
+        max-width: 22rem;
+    }
+}
+
+@media screen and (min-width: 1501px) {
+    .page__footer-contact-address {
+        max-width: 28.25rem;
+    }
+}
+
+
+.page__footer-contact-address-button {
+    width: fit-content;
+}
+
+.page__footer-contact-map-iframe {
+    min-height: 312px;
+    border-radius: var(--border-radius-image, 52px);
+}
+
+@media screen and (min-width: 1281px) {
+    .page__footer-contact-map-iframe {
+        min-height: 264px;
+    }
+}
+
+.page__flap {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: var(--gap-section, 2.5rem);
+}
+
+@media screen and (min-width: 1281px) {
+    .page__flap {
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.page__copyright-href {
+    text-decoration: none;
+    color: var(--text-dark, #333333);
+}
+
+.page__flap-socials-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.page__flap-socials-list-item {
+    list-style: none;
+}
+
+.page__flap-socials-list-href {
+    text-decoration: none;
+    color: var(--text-dark, #333333);
+}
+
+/*section - page__up-link*/
+
+.page__up-link {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: var(--margin-sides, 1.5rem);
+    margin-bottom: var(--margin-sides, 1.5rem);
+    z-index: 1;
+}
+
+@media screen and (min-width: 1281px) {
+    .page__up-link {
+        margin-right: var(--gap-body, 6.25rem);
+        margin-bottom: var(--gap-body, 6.25rem);
+    }
 }
