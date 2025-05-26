@@ -639,7 +639,7 @@
     }
 }
 
-@media screen and (min-width: 1501px) {
+@media screen and (min-width: 1537px) {
     .page__vouchers-wrapper {
         flex-direction: row;
     }
@@ -687,7 +687,7 @@
     }
 }
 
-@media screen and (min-width: 1501px) {
+@media screen and (min-width: 1537px) {
     .page__vouchers-cards {
         justify-content: end;
     }
@@ -752,7 +752,7 @@
 .page__how-to-vouchers-header-content-text {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: .5rem;
     max-width: 46.25rem;
 }
 
@@ -934,7 +934,7 @@
     }
 }
 
-@media screen and (min-width: 1501px) {
+@media screen and (min-width: 1537px) {
     .page__footer-contact {
         gap: 0;
         justify-content: space-between;
@@ -990,7 +990,7 @@
     }
 }
 
-@media screen and (min-width: 1501px) {
+@media screen and (min-width: 1537px) {
     .page__footer-contact-address {
         max-width: 28.25rem;
     }
