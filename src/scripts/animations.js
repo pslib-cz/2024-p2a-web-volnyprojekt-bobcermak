@@ -2,8 +2,29 @@ import { gsap } from "gsap";
 import { Observer } from "gsap/Observer";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
-import { SplitText } from "gsap/SplitText";
-gsap.registerPlugin(Observer,ScrollTrigger,ScrollSmoother,SplitText);
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+gsap.registerPlugin(Observer,ScrollTrigger,ScrollSmoother,ScrollToPlugin);
+
+//ScrollSmoother
+ScrollSmoother.create({
+  smooth: 1.25,
+  effects: true
+});
+
+//ScrollToPlugin
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    const targetId = this.getAttribute('href');
+    if (targetId.length > 1 && document.querySelector(targetId)) {
+      e.preventDefault();
+      gsap.to(window, {
+        duration: 0.15,
+        scrollTo: targetId,
+        ease: "power1.out"
+      });
+    }
+  });
+});
 
 //page__price-list - click
 const screen = gsap.matchMedia();
@@ -80,12 +101,6 @@ if (section) {
   );
   observer.observe(section);
 }
-
-//ScrollSmoother
-ScrollSmoother.create({
-  smooth: 1.25,
-  effects: true
-});
 
 //page__header-welcome - animation
 gsap.fromTo(
