@@ -18,9 +18,11 @@ function updateScrollLock() {
     document.body.classList.toggle('noscroll', isActive);
     document.documentElement.classList.toggle('noscroll', isActive);
 }
+//remove - hamburger menu
 function handleNavClick(e) {
     const link = e.target.closest('a[href^="#"]');
-    if (!link) return;
+    const upBtn = e.target.closest('a.button--up-link[href="#header"]');
+    if (!link && !upBtn) return;
     const nav = e.currentTarget;
     nav.classList.remove('active');
     document.body.classList.remove('noscroll');
@@ -36,4 +38,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     updateScrollLock();
     nav.addEventListener('click', handleNavClick);
+    document.body.addEventListener('click', (e) => {
+        const upBtn = e.target.closest('a.button--up-link[href="#header"]');
+        if (!upBtn) return;
+        nav.classList.remove('active');
+        document.body.classList.remove('noscroll');
+        document.documentElement.classList.remove('noscroll');
+        document.querySelectorAll(".hamburger-zone").forEach(el => el.classList.remove("active"));
+    });
 });

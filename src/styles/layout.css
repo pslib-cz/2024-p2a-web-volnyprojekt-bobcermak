@@ -894,7 +894,6 @@
 }
 
 .page__contact-info-address-href {
-    text-decoration: none;
     font-style: normal;
     color: var(--text-dark, #333333);
 }
