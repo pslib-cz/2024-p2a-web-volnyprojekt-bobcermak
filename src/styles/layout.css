@@ -1,6 +1,6 @@
 /*bg*/
 
-.page {
+.page__container {
     position: relative;
     min-height: 100vh;
     min-height: 100svh;
@@ -12,7 +12,7 @@
 /*no - scroll*/
 
 .noscroll {
-    overflow: hidden;
+    position: fixed;
     touch-action: none;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .page__header-logo {
-    z-index: 1;
+    z-index: 2;
 }
 
 .page__header-logo-img {

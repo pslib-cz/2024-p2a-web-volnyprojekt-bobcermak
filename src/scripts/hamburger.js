@@ -15,9 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
 function updateScrollLock() {
     const nav = document.querySelector('.hamburger-nav');
     const isActive = nav?.classList.contains('active');
-    document.body.classList.toggle('noscroll', isActive);
-    document.documentElement.classList.toggle('noscroll', isActive);
+    document.querySelectorAll('.page__container').forEach(container => {
+        container.classList.toggle('noscroll', isActive);
+    });
 }
+
 //remove - hamburger menu
 function handleNavClick(e) {
     const link = e.target.closest('a[href^="#"]');

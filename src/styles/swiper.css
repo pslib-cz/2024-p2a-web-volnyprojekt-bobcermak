@@ -27,6 +27,7 @@
 
 .swiper {
     width: var(--width-full);
+    z-index: 0;
 }
 
 .swiper-slide {

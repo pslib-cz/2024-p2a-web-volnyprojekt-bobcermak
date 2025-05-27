@@ -80,3 +80,121 @@ if (section) {
   );
   observer.observe(section);
 }
+
+//ScrollSmoother
+ScrollSmoother.create({
+  smooth: 1.25,
+  effects: true
+});
+
+//page__header-welcome - animation
+gsap.fromTo(
+  [
+    ".page__header-welcome-header",
+    ".page__header-welcome-buttons-list li"
+  ],
+  {
+    opacity: 0,
+    y: 60,
+    filter: "blur(12px)"
+  },
+  {
+    opacity: 1,
+    y: 0,
+    filter: "blur(0px)",
+    duration: 1,
+    ease: "power2.out",
+    stagger: 0.15,
+    scrollTrigger: {
+      trigger: ".page__header-welcome",
+      start: "top 80%",
+      once: true
+    }
+  }
+);
+
+//page__massage-benefits - animation
+gsap.fromTo(
+  [
+    ".page__massage-benefits-header",
+    ".page__massage-benefits-container-header",
+    ".page__massage-benefits-container-text p",
+    ".page__massage-benefits-container-list-item",
+    ".page__massage-benefits-container-info"
+  ],
+  {
+    opacity: 0,
+    x: -60,
+    scale: 0.96,
+    filter: "blur(10px)"
+  },
+  {
+    opacity: 1,
+    x: 0,
+    scale: 1,
+    filter: "blur(0px)",
+    duration: 1,
+    ease: "power2.out",
+    stagger: 0.13,
+    scrollTrigger: {
+      trigger: ".page__massage-benefits",
+      start: "top 80%",
+      once: true
+    }
+  }
+);
+
+//page__price-list - animation
+gsap.fromTo(
+  [
+    ".page__price-list-header",
+    ".price-list-card",
+    ".page__price-list-explanation"
+  ],
+  {
+    opacity: 0,
+    y: 60,
+    scaleY: 0.92
+  },
+  {
+    opacity: 1,
+    y: 0,
+    scaleY: 1,
+    duration: 1,
+    ease: "back.out(1.4)",
+    stagger: 0.14,
+    scrollTrigger: {
+      trigger: ".page__price-list",
+      start: "top 80%",
+      once: true
+    }
+  }
+);
+
+//page__gallery - animation
+gsap.fromTo(
+  [
+    ".page__gallery header > div",
+    ".page__gallery figure"
+  ],
+  {
+    opacity: 0,
+    x: 60,
+    rotate: 4,
+    filter: "blur(8px)"
+  },
+  {
+    opacity: 1,
+    x: 0,
+    rotate: 0,
+    filter: "blur(0px)",
+    duration: 1,
+    ease: "power2.out",
+    stagger: 0.12,
+    scrollTrigger: {
+      trigger: ".page__gallery",
+      start: "top 80%",
+      once: true
+    }
+  }
+);
