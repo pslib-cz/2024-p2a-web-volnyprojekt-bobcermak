@@ -6,7 +6,7 @@ Dopřejte si chvilku pro sebe - v BalancGate v Jablonci nad Nisou na vás čekaj
 
 ---
 
-[Plátno ve Figmě](https://www.figma.com/design/XzURy8VPKYpPw7Nvizl29h/%C4%8Cerm%C3%A1kBohuslav?node-id=182-15&t=KhkWwVRr1tCxZYzG-1) | [GitHub Pages](https://pslib-cz.github.io/2024-p2a-web-volnyprojekt-bobcermak/) | [Word - Brand](https://pslib.sharepoint.com/:w:/s/P2AMME2024sk.1/EfunV8iC8TZHgIs_0g-U0u8Bumrv1k7fsV50db7xO-U7wQ?e=B7ZfZy)
+[Plátno ve Figmě](https://www.figma.com/design/XzURy8VPKYpPw7Nvizl29h/%C4%8Cerm%C3%A1kBohuslav?node-id=182-15&t=KhkWwVRr1tCxZYzG-1) | [Náhled webu](https://pslib-cz.github.io/2024-p2a-web-volnyprojekt-bobcermak/) | [Word - Brand](https://pslib.sharepoint.com/:w:/s/P2AMME2024sk.1/EfunV8iC8TZHgIs_0g-U0u8Bumrv1k7fsV50db7xO-U7wQ?e=B7ZfZy)
 
 ---
 
