@@ -37,11 +37,11 @@
         --cream-accent: #DED0B6;
 
         /*Font-sizes*/
-
+        
+        --heading: 2.5rem;
         --title: 2rem;
         --paragraph: 1rem;
-        --heading: 2.5rem;
-
+        
         /*Settings*/
 
         /*transitions*/
