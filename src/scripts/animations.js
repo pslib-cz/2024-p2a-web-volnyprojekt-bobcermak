@@ -128,14 +128,24 @@ gsap.fromTo(
 );
 
 //page__massage-benefits - animation
-gsap.fromTo(
-  [
+const isWideScreen = window.matchMedia("(min-width: 1281px)").matches;
+const elements = isWideScreen
+? [
     ".page__massage-benefits-header",
     ".page__massage-benefits-container-header",
     ".page__massage-benefits-container-text p",
     ".page__massage-benefits-container-list-item",
     ".page__massage-benefits-container-info"
-  ],
+  ]
+: [
+    ".page__massage-benefits-header",
+    ".page__massage-benefits-container-text p",
+    ".page__massage-benefits-container-list-item",
+    ".page__massage-benefits-container-info",
+    ".page__massage-benefits-container-header"
+  ];
+gsap.fromTo(
+  elements,
   {
     opacity: 0,
     x: -60,
