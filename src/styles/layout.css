@@ -905,12 +905,13 @@
 /*images*/
 
 .page__gallery-photo--natural-element {
-    display: none;
+    position: absolute;
+    left: -1000%;
 }
 
 @media screen and (min-width: 761px) {
     .page__gallery-photo--natural-element {
-        display: block;
+        position: static;
     }
 }
 
