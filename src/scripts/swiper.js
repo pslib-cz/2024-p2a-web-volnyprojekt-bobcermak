@@ -4,7 +4,7 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import '/src/styles/swiper.css';
 
 //page__services - swiper
-const swiper = new Swiper('.page__services-container', {
+const swiperServices = new Swiper('.page__services-container', {
     modules: [Navigation, Pagination, Autoplay],
     slidesPerView: 1,
     spaceBetween: 40,
