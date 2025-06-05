@@ -65,12 +65,12 @@
     @media screen and (min-width: 1281px) {
         :root {
             /*width*/
-            --width-small: 56vw;
-            --width-small: 56svw;
-            --width-semi: 80vw;
-            --width-semi: 80svw;
             --width-full: 90vw;
             --width-full: 90svw;
+            --width-semi: 80vw;
+            --width-semi: 80svw;
+            --width-small: 56vw;
+            --width-small: 56svw;
 
             /*border-radius*/
 
