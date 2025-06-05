@@ -19,7 +19,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       gsap.to(window, {
         duration: 0.15,
         scrollTo: targetId,
-        ease: "power1.out"
+        ease: "power2.inOut"
       });
     }
   });
@@ -53,7 +53,7 @@ function toggleExpand(buttonSelector, contentSelector) {
           pointerEvents: 'auto',
           duration: 0.6,
           marginTop: '2.5rem',
-          ease: 'power1.out',
+          ease: 'power2.inOut',
           onComplete: () => {
             content.style.height = 'auto';
           }
@@ -67,7 +67,7 @@ function toggleExpand(buttonSelector, contentSelector) {
           pointerEvents: 'none',
           marginTop: 0,
           duration: 0.6,
-          ease: 'power1.inOut'
+          ease: 'power2.inOut'
         });
     }
   });
@@ -117,7 +117,7 @@ gsap.fromTo(
     y: 0,
     filter: "blur(0px)",
     duration: 1,
-    ease: "power2.out",
+    ease: "power2.inOut",
     stagger: 0.15,
     scrollTrigger: {
       trigger: ".page__header-welcome",
@@ -158,7 +158,7 @@ gsap.fromTo(
     scale: 1,
     filter: "blur(0px)",
     duration: 1,
-    ease: "power2.out",
+    ease: "power2.inOut",
     stagger: 0.13,
     scrollTrigger: {
       trigger: ".page__massage-benefits",
@@ -213,7 +213,7 @@ gsap.fromTo(
     rotate: 0,
     filter: "blur(0px)",
     duration: 1,
-    ease: "power2.out",
+    ease: "power2.inOut",
     stagger: 0.12,
     scrollTrigger: {
       trigger: ".page__gallery",
