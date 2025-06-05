@@ -1,1 +1,0 @@
-import"./fontawesome-BKywwBSM.js";import"./animations-SHFH8R8H.js";import"./swiper-C_MCUe82.js";import"./hamburger-DlOe_3b1.js";/* empty css               */document.getElementById("year").textContent=new Date().getFullYear();
