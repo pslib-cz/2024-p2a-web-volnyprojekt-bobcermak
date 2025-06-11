@@ -1102,6 +1102,11 @@
 .page__copyright-href {
     text-decoration: none;
     color: var(--text-dark, #333333);
+    transition: color var(--transition, .25s ease-in-out);
+}
+
+.page__copyright-href:hover {
+    color: var(--cream-accent, #DED0B6);
 }
 
 .page__flap-socials-list {
@@ -1111,11 +1116,33 @@
 
 .page__flap-socials-list-item {
     list-style: none;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.page__flap-socials-list-item:hover {
+    color: var(--cream-accent, #DED0B6);
 }
 
 .page__flap-socials-list-href {
     text-decoration: none;
     color: var(--text-dark, #333333);
+}
+
+.page__flap-socials-list-item-icon--facebook {
+    transition: fill var(--transition, .25s ease-in-out);
+}
+
+.page__flap-socials-list-item-icon--facebook:hover {
+    fill: var(--cream-accent, #DED0B6);
+}
+
+.page__flap-socials-list-item-icon--instagram {
+    transition: stroke var(--transition, .25s ease-in-out);
+}
+
+.page__flap-socials-list-item-icon--instagram:hover {
+    stroke: var(--cream-accent, #DED0B6);
 }
 
 /*section - page__up-link*/

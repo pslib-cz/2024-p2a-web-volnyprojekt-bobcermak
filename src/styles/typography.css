@@ -145,22 +145,8 @@ li:has(.button) {
     display: none;
 }
 
-/*socials*/
+/*Icons - svg*/
 
-.icon--single::before {
-    margin-right: 0;
-    padding: .25rem;
-    font-size: 1.5rem;
-}
-
-.icon--instagram::before {
-    font-family: "Font Awesome 5 Brands";
-    content: "\f16d";
-    margin: 0;
-}
-
-.icon--facebook::before {
-    font-family: "Font Awesome 5 Brands";
-    content: "\f09a";
-    margin: 0;
+.icon--svg {
+    display: inline-block;
 }
