@@ -144,9 +144,3 @@ li:has(.button) {
 .icon--hidden {
     display: none;
 }
-
-/*Icons - svg*/
-
-.icon--svg {
-    display: inline-block;
-}
