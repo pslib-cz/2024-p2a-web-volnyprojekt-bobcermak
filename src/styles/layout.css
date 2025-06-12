@@ -130,6 +130,7 @@
 }
 
 .page__header-menu-item-icon--facebook {
+    padding: .5rem;
     fill: var(--bg-dark, #333333);
     transition: fill var(--transition, .25s ease-in-out);
 }
@@ -139,6 +140,7 @@
 }
 
 .page__header-menu-item-icon--instagram {
+    padding: .5rem;
     fill: none;
     stroke: var(--bg-dark, #333333);
     transition: stroke var(--transition, .25s ease-in-out);
@@ -1155,6 +1157,7 @@
 }
 
 .page__flap-socials-list-item-icon--facebook {
+    padding: .5rem;
     fill: var(--bg-dark, #333333);
     transition: fill var(--transition, .25s ease-in-out);
 }
@@ -1164,6 +1167,8 @@
 }
 
 .page__flap-socials-list-item-icon--instagram {
+    padding: .5rem;
+    padding-right: 0;
     fill: none;
     stroke: var(--bg-dark, #333333);
     transition: stroke var(--transition, .25s ease-in-out);
