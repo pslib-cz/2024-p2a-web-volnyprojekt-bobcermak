@@ -883,7 +883,7 @@
 .page__gallery {
     width: var(--width-semi);
     padding: 0 var(--margin-sides, 1.5rem);
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 @media screen and (min-width: 1281px) {
